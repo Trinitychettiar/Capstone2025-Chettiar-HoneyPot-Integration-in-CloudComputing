@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  cowrie:
+    image: dtagdevsec/cowrie
+    container_name: cowrie
+    ports:
+      - "2222:2222"  # SSH Honeypot
+    volumes:
+      - ./cowrie/etc:/cowrie/etc
+      - ./cowrie/var:/cowrie/var
+    restart: always
+
+  dionaea:
+    image: honeynet/dionaea
+    container_name: dionaea
+    network_mode: host  # uses host networking to catch wide port ranges
+    restart: always
+
+  glastopf:
+    image: dtagdevsec/glastopf
+    container_name: glastopf
+    ports:
+      - "8080:80"
+    restart: always
+
+  suricata:
+    image: jasonish/suricata:latest
+    container_name: suricata
+    network_mode: host
+    volumes:
+      - ./suricata/config:/etc/suricata
+      - ./suricata/logs:/var/log/suricata
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    restart: always
+
+  filebeat:
+    image: elastic/filebeat:7.17.9
+    container_name: filebeat
+    volumes:
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - /var/log:/var/log:ro
+    restart: always

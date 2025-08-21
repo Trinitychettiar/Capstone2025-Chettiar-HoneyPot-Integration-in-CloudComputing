@@ -1,0 +1,501 @@
+timestamp,provider,region,continent,honeypot,event_type,protocol,dst_port,src_ip,src_country,asn,ip_reputation,src_os,username,password,cve,action,payload_sample_hash,bytes_in,bytes_out,session_id
+2025-07-05T00:23:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,UDP,22,110.127.67.221,BR,AS45102,known_attacker,Linux 3.x,,,,connection_attempted,,7221,4451,3f37e6b5c00e
+2025-07-05T00:52:00,Azure,East US,North America,Glutton,ssh_banner_grab,UDP,53,107.124.58.215,IE,AS45102,bad_reputation,Linux 3.x,,,,connection_attempted,,8190,325,4552e9366735
+2025-07-05T01:49:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,1433,48.74.33.175,IN,AS45102,benign_suspected,Windows 7/8,,,CVE-2006-2369,connection_attempted,,2040,4606,aa153b31c5e6
+2025-07-05T05:48:00,GCP,us-east4-c,North America,Glastopf,lfi_rfi,TCP,53,79.254.165.97,RU,AS37963,bad_reputation,Unknown,,,CVE-2006-2369,connection_attempted,78361fd3b1fdf332,8460,4848,da2a4e862dbf
+2025-07-05T06:30:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,TCP,8080,196.3.85.40,IN,AS45102,known_attacker,Unknown,,,CVE-2012-0152,connection_attempted,,3847,5543,af3de8d11d10
+2025-07-05T07:12:00,GCP,europe-west2-c,Europe,Cowrie,command_input,UDP,995,190.177.136.106,VN,AS14061,bad_reputation,Windows 7/8,admin,P@ssw0rd,,command_executed,,3444,4970,33a1839698d0
+2025-07-05T09:21:00,GCP,europe-west2-c,Europe,RDPY,rdp_auth_attempt,TCP,587,103.98.214.119,CN,AS8075,bad_reputation,Unknown,,,CVE-2005-4050,authentication_failed,,2367,2061,7a92592fcc36
+2025-07-05T10:25:00,AWS,us-east-1c,North America,Dionaea,service_probe,UDP,110,77.169.132.107,VE,AS14618,bad_reputation,Windows 7/8,,,CVE-2012-0152,command_executed,,4346,2537,c5a385035797
+2025-07-05T11:05:00,GCP,europe-west2-c,Europe,Cowrie,command_input,TCP,443,147.229.16.236,IN,AS45102,known_attacker,Linux 2.6.x,root,admin,,payload_captured,,6654,4606,385d0fa882bd
+2025-07-05T11:58:00,GCP,europe-west2-c,Europe,VNClowpot,vnc_auth_attempt,UDP,135,181.71.110.116,DE,AS14061,bad_reputation,Unknown,,,CVE-2005-4050,authentication_failed,,1469,3917,eacd66cc1c0a
+2025-07-05T13:42:00,GCP,us-east4-c,North America,Glutton,tcp_connect,TCP,995,245.104.204.183,IE,AS13335,bad_reputation,Linux 3.x,,,,command_executed,,4774,508,45dd3e9f8900
+2025-07-05T14:00:00,Azure,Southeast Asia,Asia,RDPY,rdp_auth_attempt,TCP,25,102.184.26.179,DE,AS14061,unknown,Unknown,,,CVE-2012-0152,authentication_failed,,3146,3413,923baef202b4
+2025-07-05T14:10:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,TCP,23,19.210.2.52,VE,AS36351,known_attacker,Linux 2.6.x,,,CVE-2006-2369,command_executed,,935,3873,e9ed51b2e3fa
+2025-07-05T15:13:00,Azure,East US,North America,Glutton,tcp_connect,TCP,23,57.220.178.87,VN,AS16509,known_attacker,Linux 3.x,,,,alert_logged,,6535,3556,4473bf72ce5d
+2025-07-05T17:48:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,UDP,443,218.104.234.99,VE,AS16509,known_attacker,Unknown,guest,password,,connection_attempted,,8599,4857,ef147dd9f5c7
+2025-07-05T18:44:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,TCP,995,249.223.7.10,SG,AS13335,known_attacker,Unknown,,,,command_executed,,5250,2703,65a74de27005
+2025-07-05T19:01:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,UDP,5060,122.199.141.183,IN,AS45102,known_attacker,Unknown,postgres,qwerty,,authentication_failed,,3253,3234,1760b5739f64
+2025-07-05T21:44:00,AWS,us-east-1c,North America,Cowrie,command_input,TCP,1433,111.75.100.117,BR,AS8075,known_attacker,Unknown,,,,connection_attempted,,7535,6161,ecd19c2ff33b
+2025-07-05T22:30:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,TCP,1433,87.47.16.60,GB,AS13335,unknown,Linux 4.x,support,toor,,payload_captured,,2843,4744,76b460b0c5b2
+2025-07-05T22:56:00,Azure,Southeast Asia,Asia,Glutton,ssh_banner_grab,UDP,445,1.164.158.130,SG,AS36351,bad_reputation,Windows 7/8,,,,connection_attempted,,6391,2727,730d0886b5a6
+2025-07-05T23:11:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,23,94.231.61.66,RU,AS16509,spam,Windows 7/8,,,,command_executed,,4866,2765,036faf706b60
+2025-07-06T01:59:00,GCP,us-east4-c,North America,Glastopf,web_attack,TCP,1433,45.52.136.231,GB,AS14061,known_attacker,Windows XP,,,,alert_logged,580dd712f8f03d63,6023,5162,a5ef1d7cc44e
+2025-07-06T04:14:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,587,120.241.225.122,BR,AS14061,known_attacker,Unknown,,,CVE-2012-0152,payload_captured,,2146,2164,2b91fbc7c942
+2025-07-06T04:21:00,Azure,East US,North America,Cowrie,ssh_login_attempt,TCP,465,192.59.238.78,BR,AS15169,known_attacker,Unknown,guest,12345678,,command_executed,,3545,3461,4bacda2549a9
+2025-07-06T06:49:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,TCP,110,223.199.41.120,RU,AS36351,bad_reputation,Linux 3.x,,,,command_executed,,6877,3656,4ef795130be0
+2025-07-06T06:51:00,Azure,East US,North America,Glutton,tcp_connect,UDP,5060,235.124.242.136,RU,AS14618,benign_suspected,Linux 2.6.x,,,,payload_captured,,1900,1538,5c7c505752af
+2025-07-06T07:49:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,TCP,3389,248.170.207.185,RU,AS45102,bad_reputation,Linux 2.6.x,pi,raspberry,,command_executed,,4018,4501,dc72e35fadd6
+2025-07-06T08:42:00,AWS,us-east-1c,North America,Glastopf,web_attack,UDP,139,18.89.239.216,BR,AS8075,known_attacker,Windows 7/8,,,CVE-2006-2369,alert_logged,9c1fac08d4e47ffa,4733,3008,10d5f4ffa73c
+2025-07-06T10:46:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,465,131.147.47.46,RU,AS13335,bad_reputation,Windows 7/8,,,CVE-2005-4050,command_executed,bf4c377c9da295f3,3664,1589,262e855186a0
+2025-07-06T11:07:00,Azure,East US,North America,RDPY,rdp_auth_attempt,UDP,23,175.183.248.74,US,AS14618,unknown,Linux 2.6.x,,,CVE-2005-4050,payload_captured,,7673,3420,1f474916ce43
+2025-07-06T11:16:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,53,139.132.46.123,CN,AS36351,bad_reputation,Linux 2.6.x,test,letmein,,payload_captured,,5670,1307,916fd0899b9f
+2025-07-06T12:04:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,465,28.186.111.252,VN,AS45102,known_attacker,Windows 7/8,,,CVE-2001-0540,authentication_failed,,4732,1822,570ca74ddbcd
+2025-07-06T16:08:00,GCP,us-east4-c,North America,Cowrie,command_input,UDP,3389,188.247.177.57,VN,AS14618,unknown,Windows 7/8,support,P@ssw0rd,,payload_captured,,3224,3156,a9ed55352f67
+2025-07-06T17:01:00,Azure,East US,North America,Glutton,ssh_banner_grab,UDP,993,70.113.57.61,IN,AS37963,known_attacker,Unknown,,,,connection_attempted,,2166,6443,9745484cf513
+2025-07-06T17:40:00,Azure,Southeast Asia,Asia,Mailoney,relay_attempt,TCP,139,70.125.138.208,CN,AS16509,known_attacker,Linux 4.x,,,,command_executed,,5122,2800,a309b983103b
+2025-07-06T20:58:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,UDP,110,229.4.177.4,GB,AS13335,unknown,Linux 2.6.x,,,CVE-2012-0152,connection_attempted,3ee288d8d2363c96,3571,4410,a4e4e8c12333
+2025-07-06T21:42:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,TCP,110,38.50.88.86,BR,AS16509,bad_reputation,Unknown,,,CVE-2001-0540,authentication_failed,,5642,1863,b9736b95a3b0
+2025-07-06T22:31:00,GCP,us-east4-c,North America,Cowrie,command_input,TCP,8080,46.11.137.246,VN,AS14618,bad_reputation,Linux 3.x,oracle,qwerty,,alert_logged,,1181,233,26ab8d66a154
+2025-07-06T22:42:00,Azure,East US,North America,Dionaea,malware_capture,UDP,8080,116.66.8.199,SG,AS16509,bad_reputation,Windows 7/8,,,CVE-2006-2369,authentication_failed,c9d2bad48290e2e9,5318,1798,a5be99f282b8
+2025-07-06T22:59:00,Azure,East US,North America,Cowrie,ssh_login_attempt,TCP,8080,221.167.134.138,SG,AS13335,known_attacker,Linux 2.6.x,user,qwerty,,payload_captured,,5188,3241,4ebdd2767511
+2025-07-06T23:24:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,587,216.233.150.90,CN,AS36351,bad_reputation,Linux 2.6.x,,,,authentication_failed,,4425,1452,e562326c7c67
+2025-07-06T23:56:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,UDP,995,207.24.63.157,GB,AS16509,benign_suspected,Linux 3.x,,,CVE-2005-4050,authentication_failed,5b8a8a65c6547be0,4518,2543,ac2ee7b2f398
+2025-07-07T00:12:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,53,153.127.144.178,IN,AS16509,known_attacker,Linux 2.6.x,,,CVE-2012-0152,command_executed,,6482,3132,5ac7be1380c6
+2025-07-07T02:55:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,25,118.5.150.33,IN,AS14618,known_attacker,Windows XP,user,,,authentication_failed,,3378,5188,ba5de705e999
+2025-07-07T03:35:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,993,211.104.91.104,GB,AS14618,benign_suspected,Windows 7/8,,,CVE-2001-0540,alert_logged,,4380,3135,7b408508af6f
+2025-07-07T05:16:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,TCP,995,233.181.146.174,SG,AS14061,bad_reputation,Linux 2.6.x,support,P@ssw0rd,,payload_captured,,5233,1443,51555c984ca3
+2025-07-07T08:21:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,UDP,465,75.240.129.36,US,AS13335,benign_suspected,Unknown,,,,payload_captured,,3185,3252,0088c264a197
+2025-07-07T08:41:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,22,119.79.30.20,SG,AS15169,bad_reputation,Linux 2.6.x,pi,admin,,authentication_failed,,314,4006,0e03864c9b4d
+2025-07-07T09:11:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,135,98.118.222.199,DE,AS16509,spam,Linux 3.x,,,CVE-2006-2369,command_executed,,2322,2880,8e5f04e85156
+2025-07-07T09:16:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,UDP,587,145.31.184.209,GB,AS8075,known_attacker,Windows 7/8,test,P@ssw0rd,,authentication_failed,,4326,1088,4778afdc2db7
+2025-07-07T11:58:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,UDP,995,145.93.39.99,IE,AS15169,benign_suspected,Windows 7/8,,,CVE-2001-0540,command_executed,,4842,1671,74e26f5c6452
+2025-07-07T13:34:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,143,231.38.176.63,RU,AS36351,bad_reputation,Linux 4.x,,,CVE-2005-4050,authentication_failed,,4581,2514,7a7007be8ab5
+2025-07-07T14:25:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,UDP,587,148.187.7.101,GB,AS36351,bad_reputation,Linux 3.x,,,CVE-2006-2369,payload_captured,,4895,2819,2fafc0617100
+2025-07-07T15:18:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,5060,79.199.225.52,IN,AS37963,unknown,Windows 7/8,,,CVE-2001-0540,command_executed,,5608,2985,d3b17681cf9f
+2025-07-07T17:07:00,Azure,Southeast Asia,Asia,Heralding,credential_capture,TCP,139,166.114.53.84,RU,AS36351,known_attacker,Windows XP,guest,P@ssw0rd,,connection_attempted,,6080,2933,d41f6056d618
+2025-07-07T17:14:00,Azure,Southeast Asia,Asia,Mailoney,relay_attempt,TCP,135,15.3.92.219,VN,AS14061,known_attacker,Windows 7/8,,,,alert_logged,,3814,3910,3ab62c76a6bc
+2025-07-07T17:42:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,443,184.122.33.159,SG,AS13335,bad_reputation,Linux 2.6.x,test,12345678,,alert_logged,,2448,2445,beb926a1a59f
+2025-07-07T18:29:00,GCP,us-east4-c,North America,Mailoney,smtp_probe,TCP,5060,248.80.113.107,IN,AS14618,unknown,Windows XP,,,,alert_logged,3df2d6123becbaf1,5031,379,ef44b888c359
+2025-07-07T19:46:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,TCP,465,71.225.136.78,SG,AS13335,benign_suspected,Windows 7/8,,,CVE-2001-0540,connection_attempted,48c2cec13469f401,3736,1014,c6ca58ef9fae
+2025-07-07T20:12:00,AWS,us-east-1c,North America,Cowrie,command_input,TCP,5060,28.66.17.219,IE,AS8075,benign_suspected,Linux 4.x,postgres,password,,authentication_failed,,3479,1470,ae0c8df12130
+2025-07-07T20:23:00,GCP,us-east4-c,North America,Mailoney,relay_attempt,UDP,139,113.192.229.121,DE,AS14618,bad_reputation,Linux 2.6.x,,,,command_executed,,4805,1091,581d6d8533de
+2025-07-07T20:24:00,Azure,Southeast Asia,Asia,Glutton,ssh_banner_grab,UDP,465,1.90.29.66,GB,AS15169,bad_reputation,Linux 2.6.x,,,,connection_attempted,,3362,654,2e60f68ab961
+2025-07-07T22:10:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,465,9.41.21.183,VE,AS36351,known_attacker,Windows XP,,,CVE-2006-2369,authentication_failed,,4937,3925,1112b063a860
+2025-07-07T22:33:00,GCP,us-east4-c,North America,VNClowpot,vnc_auth_attempt,UDP,139,236.40.26.176,VE,AS16509,unknown,Linux 2.6.x,,,CVE-2001-0540,authentication_failed,,6766,1815,a40533583e22
+2025-07-08T02:01:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,TCP,110,33.97.42.234,VN,AS14061,unknown,Linux 2.6.x,,,CVE-2006-2369,command_executed,,4246,5788,44d1a684159f
+2025-07-08T03:32:00,Azure,East US,North America,Cowrie,ssh_login_attempt,UDP,5060,195.219.232.212,VE,AS16509,spam,Linux 2.6.x,postgres,qwerty,,payload_captured,,3806,3285,09fd5d513cdd
+2025-07-08T04:19:00,Azure,Southeast Asia,Asia,Heralding,credential_capture,TCP,993,180.23.47.131,SG,AS15169,known_attacker,Unknown,admin,123456,,command_executed,,5621,369,641579efa9ab
+2025-07-08T08:03:00,AWS,us-east-1c,North America,Glutton,tcp_connect,UDP,25,9.241.147.164,RU,AS37963,bad_reputation,Linux 3.x,,,,payload_captured,,2172,1395,78153c0a41ef
+2025-07-08T08:12:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,22,235.115.72.106,CN,AS37963,known_attacker,Linux 2.6.x,,,CVE-2001-0540,authentication_failed,c7f67bb371de0f22,6701,5141,a10b7101f6e9
+2025-07-08T08:15:00,Azure,East US,North America,Heralding,credential_capture,TCP,993,149.238.141.27,US,AS36351,bad_reputation,Linux 4.x,admin,admin,,command_executed,,4585,2813,07ff35927515
+2025-07-08T12:10:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,139,53.208.40.127,VN,AS13335,bad_reputation,Unknown,oracle,,,payload_captured,,4836,2997,9a9d445c7bc4
+2025-07-08T13:36:00,AWS,us-east-1c,North America,Dionaea,malware_capture,UDP,465,3.56.181.4,BR,AS37963,bad_reputation,Unknown,,,CVE-2006-2369,connection_attempted,73d7492e378646d3,2083,4690,43c53685a757
+2025-07-08T15:46:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,139,206.200.71.30,BR,AS15169,unknown,Unknown,,,CVE-2006-2369,command_executed,,5555,2182,58034a9903e5
+2025-07-08T18:13:00,Azure,East US,North America,Dionaea,malware_capture,TCP,53,153.33.191.253,DE,AS8075,bad_reputation,Unknown,,,CVE-2001-0540,connection_attempted,829284c909163b73,4944,3654,70470e2a7283
+2025-07-08T18:24:00,GCP,us-east4-c,North America,Honeytrap,unknown_service_probe,TCP,5900,213.180.180.202,RU,AS14618,unknown,Windows 7/8,,,,command_executed,,10178,4067,3c56742ca943
+2025-07-08T18:33:00,AWS,us-east-1c,North America,VNClowpot,vnc_auth_attempt,TCP,143,226.31.21.24,VE,AS36351,bad_reputation,Windows 7/8,,,CVE-2012-0152,alert_logged,,4615,4190,a2d0c67882ed
+2025-07-08T19:28:00,Azure,Southeast Asia,Asia,RDPY,rdp_session_start,UDP,1433,124.213.153.20,SG,AS14618,bad_reputation,Linux 4.x,,,CVE-2012-0152,command_executed,,4835,1568,60498e1047f4
+2025-07-08T20:57:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,TCP,995,195.232.56.240,VE,AS13335,known_attacker,Linux 2.6.x,,,CVE-2001-0540,alert_logged,,4892,4470,1dccba8f8261
+2025-07-08T22:16:00,GCP,europe-west2-c,Europe,Glutton,tcp_connect,TCP,995,200.249.229.145,SG,AS16509,bad_reputation,Unknown,,,,authentication_failed,,7873,2332,7ccc948e632a
+2025-07-08T23:13:00,Azure,East US,North America,Heralding,credential_capture,UDP,80,158.43.235.16,VN,AS37963,bad_reputation,Unknown,,,,payload_captured,,7524,3010,85d9c6b2e6de
+2025-07-08T23:41:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,443,34.254.232.35,US,AS13335,unknown,Unknown,,,CVE-2012-0152,alert_logged,,3372,4801,50df4b848bb3
+2025-07-09T00:17:00,Azure,East US,North America,Cowrie,command_input,TCP,143,200.169.42.157,VN,AS14618,known_attacker,Linux 3.x,support,password,,authentication_failed,,5424,2240,946387e78f33
+2025-07-09T00:58:00,GCP,us-east4-c,North America,VNClowpot,vnc_auth_attempt,UDP,80,46.197.37.104,BR,AS16509,bad_reputation,Linux 2.6.x,,,CVE-2005-4050,command_executed,,3299,3015,40b47462c582
+2025-07-09T01:39:00,Azure,East US,North America,Heralding,credential_capture,UDP,3306,143.149.34.214,IE,AS14061,unknown,Windows XP,pi,admin,,payload_captured,,8202,3934,1fb7e805f534
+2025-07-09T02:37:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,995,246.146.1.23,VN,AS14061,unknown,Linux 2.6.x,user,raspberry,,alert_logged,,902,3467,5efcbdc4d047
+2025-07-09T04:39:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,22,27.229.191.102,GB,AS16509,bad_reputation,Windows 7/8,,,CVE-2012-0152,alert_logged,,5748,3809,fd9fc9172c7a
+2025-07-09T05:19:00,Azure,Southeast Asia,Asia,Mailoney,smtp_probe,TCP,25,175.7.76.156,VN,AS36351,unknown,Linux 3.x,,,,alert_logged,aa2c4963bfdf3526,9163,5578,70686fe21c28
+2025-07-09T05:25:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,22,191.29.148.67,IE,AS14618,bad_reputation,Linux 3.x,,,,alert_logged,,120,3811,c61e8f7d2d38
+2025-07-09T07:36:00,GCP,europe-west2-c,Europe,Heralding,credential_capture,TCP,110,94.48.103.41,VN,AS14618,known_attacker,Linux 2.6.x,pi,admin,,payload_captured,,5587,1686,41a3f15ea3d0
+2025-07-09T11:16:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,443,215.182.23.193,RU,AS37963,known_attacker,Unknown,support,toor,,connection_attempted,,7566,2098,714f96ae510b
+2025-07-09T15:27:00,GCP,us-east4-c,North America,Cowrie,command_input,TCP,135,33.188.137.81,IN,AS36351,benign_suspected,Linux 3.x,root,,,command_executed,,2964,4752,5952e6c07ad9
+2025-07-09T16:45:00,Azure,East US,North America,Dionaea,service_probe,TCP,5900,7.121.249.229,GB,AS8075,bad_reputation,Linux 3.x,,,CVE-2006-2369,authentication_failed,,4840,832,b5da4dbadfe2
+2025-07-09T18:26:00,Azure,Southeast Asia,Asia,Glastopf,sql_injection,TCP,110,209.104.28.175,IN,AS8075,bad_reputation,Linux 3.x,,,CVE-2012-0152,alert_logged,,7621,3146,28c7fb0bd4f2
+2025-07-09T19:28:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,UDP,993,111.184.32.160,SG,AS37963,bad_reputation,Linux 3.x,,,CVE-2001-0540,alert_logged,,3809,5155,3fbdacd5184d
+2025-07-09T20:41:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,UDP,587,54.21.35.206,RU,AS16509,unknown,Unknown,admin,toor,,authentication_failed,,4058,3645,ef7fab3c4c74
+2025-07-09T21:22:00,AWS,us-east-1c,North America,Glutton,tcp_connect,UDP,110,24.94.74.69,IE,AS37963,bad_reputation,Linux 3.x,,,,alert_logged,,4561,3827,98cdcb249732
+2025-07-09T21:38:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,3306,158.199.134.200,DE,AS45102,bad_reputation,Windows XP,pi,123456,,connection_attempted,,7015,3889,0510fab530bf
+2025-07-09T22:38:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,TCP,143,196.182.60.77,US,AS45102,bad_reputation,Linux 3.x,,,CVE-2005-4050,alert_logged,,7017,5363,c1ffa41ab4ea
+2025-07-10T00:30:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,TCP,443,127.214.168.210,IN,AS15169,known_attacker,Windows XP,user,12345678,,authentication_failed,,7907,1932,02a5a266568a
+2025-07-10T01:11:00,GCP,us-east4-c,North America,RDPY,rdp_session_start,UDP,139,239.229.122.239,CN,AS16509,unknown,Linux 2.6.x,,,CVE-2001-0540,payload_captured,,7427,2855,430dfbc6a522
+2025-07-10T03:07:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,1433,94.212.201.120,RU,AS15169,known_attacker,Linux 2.6.x,guest,toor,,alert_logged,,5262,3978,63d24486cf00
+2025-07-10T04:56:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,TCP,445,3.164.70.236,IN,AS13335,known_attacker,Linux 2.6.x,,,CVE-2012-0152,authentication_failed,,8088,3591,a2f14c287059
+2025-07-10T10:35:00,Azure,East US,North America,Cowrie,command_input,TCP,445,28.175.201.47,SG,AS36351,known_attacker,Linux 2.6.x,pi,toor,,command_executed,,4659,286,e795587496b5
+2025-07-10T13:15:00,Azure,East US,North America,VNClowpot,vnc_auth_attempt,UDP,3389,34.153.151.233,RU,AS45102,unknown,Unknown,,,CVE-2005-4050,connection_attempted,,5365,2234,9c1c26d23aac
+2025-07-10T13:36:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,1433,174.242.190.167,BR,AS16509,benign_suspected,Linux 3.x,admin,qwerty,,payload_captured,,3618,551,9e1603db21ec
+2025-07-10T13:36:00,AWS,us-east-1c,North America,Cowrie,command_input,UDP,23,203.151.177.80,DE,AS16509,known_attacker,Unknown,root,qwerty,,alert_logged,,1715,2816,ba559067f12d
+2025-07-10T14:43:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,3389,99.106.29.187,RU,AS37963,bad_reputation,Windows 7/8,,,CVE-2012-0152,authentication_failed,,4152,3451,0e1969fea592
+2025-07-10T16:39:00,Azure,East US,North America,Glastopf,lfi_rfi,TCP,445,78.221.241.254,CN,AS16509,bad_reputation,Windows XP,,,CVE-2001-0540,payload_captured,dd964e7c6409a6c0,8296,1170,045a8c7d1feb
+2025-07-10T17:36:00,AWS,us-east-1c,North America,Glastopf,sql_injection,TCP,22,4.216.130.110,GB,AS37963,bad_reputation,Linux 3.x,,,CVE-2012-0152,command_executed,,5126,3846,ef843cffaaa4
+2025-07-10T17:44:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,TCP,139,95.175.243.238,US,AS16509,bad_reputation,Linux 2.6.x,test,qwerty,,alert_logged,,3611,2559,d644e6353024
+2025-07-10T17:47:00,AWS,us-east-1c,North America,VNClowpot,vnc_auth_attempt,UDP,995,177.200.40.144,GB,AS36351,known_attacker,Unknown,,,CVE-2006-2369,command_executed,,2132,3261,50b4543a0ce4
+2025-07-10T17:53:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,3306,127.134.103.232,VN,AS8075,bad_reputation,Windows 7/8,,,CVE-2006-2369,connection_attempted,,6271,895,7ce4ba2cad7e
+2025-07-10T18:08:00,Azure,East US,North America,Heralding,credential_capture,UDP,3389,149.99.239.157,BR,AS15169,known_attacker,Unknown,admin,12345678,,payload_captured,,4734,3003,4ca8fb43cfdb
+2025-07-10T22:16:00,AWS,us-east-1c,North America,Dionaea,service_probe,UDP,995,44.224.18.98,GB,AS14618,bad_reputation,Linux 4.x,,,CVE-2005-4050,alert_logged,,2527,1590,d14b6f6fed69
+2025-07-11T00:03:00,Azure,East US,North America,VNClowpot,vnc_auth_attempt,UDP,587,183.212.238.127,US,AS14618,bad_reputation,Windows XP,,,CVE-2006-2369,authentication_failed,,2397,3398,9e9201b566a4
+2025-07-11T01:46:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,23,72.142.124.215,DE,AS16509,bad_reputation,Linux 2.6.x,root,P@ssw0rd,,connection_attempted,,6089,3779,d417d1d3df13
+2025-07-11T02:43:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,TCP,445,4.216.243.100,RU,AS14618,known_attacker,Windows 7/8,,,CVE-2005-4050,authentication_failed,,5772,3430,540028b16cd0
+2025-07-11T02:58:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,TCP,8080,27.15.241.68,IE,AS8075,spam,Linux 2.6.x,,,CVE-2005-4050,alert_logged,,5899,3822,accaee059b84
+2025-07-11T03:09:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,TCP,587,152.70.112.169,IN,AS14061,bad_reputation,Windows XP,support,123456,,authentication_failed,,7185,1727,e82814628650
+2025-07-11T03:31:00,GCP,us-east4-c,North America,Cowrie,command_input,TCP,445,60.75.208.206,VE,AS37963,bad_reputation,Windows 7/8,guest,qwerty,,authentication_failed,,6564,1818,2e0072c38807
+2025-07-11T03:56:00,GCP,europe-west2-c,Europe,Glutton,ssh_banner_grab,UDP,465,14.152.243.200,IE,AS15169,bad_reputation,Linux 2.6.x,,,,alert_logged,,3249,6144,2d53c18c4c5b
+2025-07-11T04:33:00,AWS,us-east-1c,North America,Dionaea,service_probe,UDP,23,108.156.88.18,VN,AS14618,bad_reputation,Linux 2.6.x,,,CVE-2001-0540,authentication_failed,,6491,2573,24efc27f8aef
+2025-07-11T06:02:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,993,140.164.69.83,DE,AS45102,bad_reputation,Unknown,,,,alert_logged,,4532,4145,489699ff1186
+2025-07-11T08:04:00,Azure,Southeast Asia,Asia,RDPY,rdp_session_start,UDP,3306,92.40.22.192,VN,AS14061,known_attacker,Unknown,,,CVE-2012-0152,authentication_failed,,5932,3441,4b14cc702d9d
+2025-07-11T09:32:00,Azure,East US,North America,Dionaea,exploit_attempt,TCP,25,153.33.249.1,RU,AS13335,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,authentication_failed,,6657,2935,2b88ef0251ab
+2025-07-11T10:36:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,TCP,8080,186.147.54.114,GB,AS16509,bad_reputation,Windows 7/8,,,CVE-2012-0152,authentication_failed,,5570,1063,c5de5205becf
+2025-07-11T11:17:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,TCP,25,144.152.212.207,DE,AS15169,spam,Unknown,,,CVE-2012-0152,connection_attempted,20da3224d8c30f5c,1776,1716,7484bc496b19
+2025-07-11T12:12:00,Azure,East US,North America,Mailoney,relay_attempt,UDP,8080,101.192.169.161,CN,AS14061,known_attacker,Linux 3.x,,,,alert_logged,,7327,2214,248687066484
+2025-07-11T13:16:00,GCP,europe-west2-c,Europe,Cowrie,command_input,UDP,143,95.15.65.113,CN,AS36351,known_attacker,Linux 4.x,postgres,raspberry,,connection_attempted,,4380,4250,36b0c0bf5817
+2025-07-11T15:37:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,UDP,3389,30.218.11.188,BR,AS16509,bad_reputation,Linux 3.x,user,P@ssw0rd,,connection_attempted,,3918,4238,c3f9e5bc4e08
+2025-07-11T15:55:00,Azure,East US,North America,Heralding,credential_capture,TCP,993,174.22.73.118,SG,AS8075,known_attacker,Linux 3.x,,,,command_executed,,7228,3037,4ad47cb2086b
+2025-07-11T21:41:00,Azure,Southeast Asia,Asia,Honeytrap,unknown_service_probe,UDP,8080,181.89.21.82,IN,AS45102,unknown,Linux 3.x,,,,alert_logged,,6841,2511,33b2c4a79122
+2025-07-11T22:58:00,GCP,europe-west2-c,Europe,VNClowpot,vnc_auth_attempt,TCP,5900,113.167.35.29,RU,AS14061,known_attacker,Windows XP,,,CVE-2012-0152,payload_captured,,3288,2421,be8aef01f193
+2025-07-11T23:56:00,AWS,us-east-1c,North America,Glastopf,lfi_rfi,UDP,25,183.181.176.67,IN,AS15169,known_attacker,Windows 7/8,,,CVE-2012-0152,authentication_failed,70fa0d0004ef7010,4593,5050,0f20ae3fba38
+2025-07-12T00:02:00,GCP,europe-west2-c,Europe,Mailoney,smtp_probe,UDP,143,218.69.28.72,US,AS45102,known_attacker,Linux 2.6.x,,,,command_executed,163f603de44a67e6,6756,4364,6d26752b083b
+2025-07-12T05:12:00,AWS,us-east-1c,North America,Heralding,credential_capture,TCP,3306,179.50.212.43,IE,AS14618,bad_reputation,Windows 7/8,test,letmein,,command_executed,,6013,4120,9baadf4a971e
+2025-07-12T06:23:00,AWS,us-east-1c,North America,Glutton,tcp_connect,TCP,1433,220.5.158.43,IE,AS15169,known_attacker,Windows 7/8,,,,command_executed,,6904,4957,a349d705c34e
+2025-07-12T09:33:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,TCP,445,228.164.154.247,US,AS14618,known_attacker,Linux 2.6.x,,,,authentication_failed,,5231,1546,78a8aea2eb3e
+2025-07-12T10:53:00,GCP,europe-west2-c,Europe,Glutton,tcp_connect,UDP,3306,43.59.49.175,IN,AS14618,known_attacker,Unknown,,,,payload_captured,,7481,1945,2ca6e30c0db0
+2025-07-12T10:58:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,53,108.127.87.62,IN,AS16509,unknown,Linux 3.x,admin,P@ssw0rd,,connection_attempted,,2617,3531,082e0c07d9a9
+2025-07-12T11:58:00,GCP,us-east4-c,North America,Suricata,ids_alert,TCP,25,19.101.31.50,VN,AS14618,bad_reputation,Windows 7/8,,,CVE-2006-2369,command_executed,,6013,2002,188413729ac0
+2025-07-12T13:14:00,Azure,East US,North America,VNClowpot,vnc_auth_attempt,TCP,993,196.6.60.19,BR,AS8075,known_attacker,Linux 3.x,,,CVE-2001-0540,authentication_failed,,4313,5107,1b0cd1fb51ba
+2025-07-12T14:11:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,UDP,443,45.42.70.152,CN,AS36351,known_attacker,Linux 2.6.x,,,,command_executed,,8812,5966,776e51cbb2b7
+2025-07-12T15:31:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,TCP,5900,115.110.163.209,IN,AS14061,bad_reputation,Linux 3.x,,,CVE-2006-2369,authentication_failed,,1597,2642,5faf28dd58ef
+2025-07-12T17:49:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,TCP,8080,65.111.128.131,GB,AS14061,known_attacker,Unknown,test,P@ssw0rd,,connection_attempted,,8861,2391,bfd7ab02650c
+2025-07-12T23:00:00,Azure,East US,North America,Cowrie,ssh_login_attempt,TCP,465,132.207.100.231,DE,AS16509,bad_reputation,Windows XP,root,toor,,authentication_failed,,2822,3852,a6a1719ae3f6
+2025-07-13T01:58:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,445,41.58.63.71,US,AS14618,known_attacker,Unknown,,,CVE-2006-2369,alert_logged,4eca5d22adf4c3a6,5299,3824,14af9709867b
+2025-07-13T04:23:00,Azure,East US,North America,Cowrie,telnet_login_attempt,TCP,25,17.156.119.155,IN,AS37963,spam,Linux 3.x,oracle,password,,authentication_failed,,5607,3365,9a107fbd324d
+2025-07-13T05:20:00,AWS,us-east-1c,North America,Cowrie,command_input,UDP,80,60.27.81.125,VE,AS14618,bad_reputation,Linux 3.x,,,,authentication_failed,,3819,2478,292494ebd429
+2025-07-13T06:12:00,Azure,East US,North America,Dionaea,service_probe,UDP,445,1.9.50.199,BR,AS14061,bad_reputation,Linux 2.6.x,,,CVE-2005-4050,payload_captured,,4103,3619,e70a8fc1c4bd
+2025-07-13T07:01:00,GCP,europe-west2-c,Europe,Cowrie,command_input,TCP,139,109.252.134.165,US,AS8075,unknown,Windows 7/8,test,admin,,command_executed,,4862,6336,24047ee77a1e
+2025-07-13T11:04:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,UDP,143,165.202.138.113,DE,AS14618,bad_reputation,Linux 4.x,postgres,P@ssw0rd,,alert_logged,,2934,4480,439809e855e0
+2025-07-13T14:23:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,3306,244.71.117.191,IE,AS13335,bad_reputation,Linux 4.x,,,CVE-2005-4050,authentication_failed,2621d53b1240f6e3,4753,4716,2087eb9f6af9
+2025-07-13T14:30:00,AWS,us-east-1c,North America,Heralding,credential_capture,TCP,5900,188.81.137.107,GB,AS45102,known_attacker,Linux 3.x,user,letmein,,alert_logged,,6327,3954,83267218f721
+2025-07-13T18:13:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,TCP,445,110.12.163.245,CN,AS8075,bad_reputation,Windows XP,,,,authentication_failed,,2544,3316,340de6ee8709
+2025-07-13T19:00:00,Azure,East US,North America,Dionaea,service_probe,TCP,80,29.57.36.227,IN,AS37963,bad_reputation,Linux 2.6.x,,,,alert_logged,,2890,1072,2fdc362fde53
+2025-07-13T19:57:00,Azure,Southeast Asia,Asia,Heralding,credential_capture,TCP,5060,28.105.214.149,VN,AS13335,known_attacker,Linux 3.x,,,,connection_attempted,,4232,3582,5470febb2df2
+2025-07-13T20:04:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,995,224.252.129.192,BR,AS14061,bad_reputation,Windows 7/8,,,,payload_captured,,32,4823,6ef5dbc0941c
+2025-07-13T20:24:00,GCP,us-east4-c,North America,Cowrie,command_input,UDP,993,118.176.229.252,VN,AS8075,benign_suspected,Linux 3.x,user,qwerty,,payload_captured,,4820,1822,14fb973f249f
+2025-07-13T21:19:00,AWS,us-east-1c,North America,Mailoney,relay_attempt,TCP,23,51.242.5.159,DE,AS14618,known_attacker,Linux 3.x,,,,alert_logged,,5422,2458,3a8ba8ee5291
+2025-07-13T23:16:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,TCP,587,130.82.184.35,IN,AS16509,unknown,Linux 2.6.x,,,,payload_captured,,6875,3231,ab5730fb21bb
+2025-07-14T00:31:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,TCP,465,41.44.110.148,CN,AS8075,known_attacker,Unknown,oracle,admin,,connection_attempted,,7161,3932,01b053d300a6
+2025-07-14T01:54:00,Azure,East US,North America,Cowrie,command_input,TCP,135,244.84.192.39,IE,AS45102,benign_suspected,Unknown,guest,123456,,alert_logged,,7171,5199,967fa8136878
+2025-07-14T03:21:00,GCP,europe-west2-c,Europe,RDPY,rdp_auth_attempt,UDP,53,200.29.200.129,SG,AS36351,known_attacker,Windows XP,,,CVE-2005-4050,alert_logged,,4164,5736,6da59320c19d
+2025-07-14T06:01:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,143,176.161.120.103,RU,AS14618,spam,Linux 3.x,,,CVE-2012-0152,alert_logged,,5589,681,3a8161d4f3c7
+2025-07-14T08:57:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,UDP,53,201.158.44.115,VN,AS36351,unknown,Windows 7/8,,,CVE-2012-0152,payload_captured,71f384fca29799c2,4330,1550,b4f5583d9cc4
+2025-07-14T09:23:00,Azure,East US,North America,Dionaea,exploit_attempt,TCP,5060,230.105.167.48,RU,AS13335,known_attacker,Unknown,,,CVE-2006-2369,authentication_failed,,4879,2002,834ed804a543
+2025-07-14T09:56:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,139,202.193.202.25,VN,AS37963,unknown,Unknown,,,CVE-2012-0152,connection_attempted,,5378,3169,1ee20f93d812
+2025-07-14T11:22:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,8080,246.32.191.52,IN,AS14061,known_attacker,Windows XP,,,CVE-2006-2369,authentication_failed,,5449,1130,a4b03f66b6e3
+2025-07-14T15:09:00,Azure,East US,North America,Cowrie,ssh_login_attempt,TCP,22,114.105.84.28,DE,AS15169,known_attacker,Linux 2.6.x,root,letmein,,alert_logged,,4932,2554,44518557ac7c
+2025-07-14T15:34:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,110,62.162.101.170,VN,AS13335,known_attacker,Windows 7/8,,,,authentication_failed,,7118,3627,85229cf41b50
+2025-07-14T17:03:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,25,101.37.31.161,US,AS15169,known_attacker,Windows XP,oracle,toor,,authentication_failed,,2648,3071,467dbfe7955e
+2025-07-14T20:34:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,995,23.240.173.41,VN,AS8075,known_attacker,Windows 7/8,user,admin,,alert_logged,,3763,4043,1d0fffb65f79
+2025-07-14T23:17:00,Azure,East US,North America,Cowrie,ssh_login_attempt,UDP,22,112.18.142.252,DE,AS14061,unknown,Windows 7/8,pi,123456,,alert_logged,,5477,4541,c0880e1742ec
+2025-07-15T01:14:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,TCP,80,195.141.39.21,IE,AS36351,bad_reputation,Linux 3.x,,,CVE-2012-0152,command_executed,,7273,5052,c5a6174a29d4
+2025-07-15T02:32:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,993,69.136.143.246,GB,AS14618,known_attacker,Linux 3.x,,,CVE-2006-2369,connection_attempted,,4054,3042,e6633f32ae7d
+2025-07-15T04:49:00,GCP,us-east4-c,North America,Dionaea,malware_capture,TCP,23,194.166.134.3,DE,AS16509,known_attacker,Linux 2.6.x,,,CVE-2012-0152,authentication_failed,b282295e0b1e8699,7037,2242,2f667bda7f80
+2025-07-15T04:49:00,Azure,East US,North America,Glutton,tcp_connect,TCP,22,250.22.84.173,US,AS15169,benign_suspected,Unknown,,,,command_executed,,1342,4040,1ba9be49ea1f
+2025-07-15T05:39:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,587,2.176.104.39,CN,AS45102,bad_reputation,Unknown,,,CVE-2006-2369,command_executed,,6199,300,4ad8439c151c
+2025-07-15T05:41:00,Azure,East US,North America,RDPY,rdp_session_start,UDP,8080,188.99.233.50,CN,AS37963,known_attacker,Linux 2.6.x,,,CVE-2005-4050,authentication_failed,,6807,5516,294aca7551eb
+2025-07-15T08:34:00,Azure,East US,North America,Cowrie,telnet_login_attempt,TCP,587,182.185.217.166,BR,AS14061,benign_suspected,Windows XP,oracle,letmein,,payload_captured,,5244,3801,ce62c503b714
+2025-07-15T10:01:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,23,149.58.84.141,IE,AS14061,spam,Windows 7/8,pi,12345678,,payload_captured,,5560,5849,d692931cd3bf
+2025-07-15T10:16:00,AWS,us-east-1c,North America,Suricata,ids_alert,TCP,80,206.187.58.166,BR,AS15169,bad_reputation,Windows XP,,,CVE-2012-0152,alert_logged,,3527,1789,b84d1e396e02
+2025-07-15T12:14:00,GCP,europe-west2-c,Europe,Cowrie,command_input,UDP,1433,142.89.19.124,DE,AS13335,bad_reputation,Windows 7/8,admin,,,alert_logged,,7190,4674,5a19b4cc4085
+2025-07-15T14:54:00,GCP,us-east4-c,North America,Heralding,credential_capture,UDP,25,241.76.128.67,GB,AS8075,bad_reputation,Windows 7/8,oracle,12345678,,command_executed,,1955,2878,0170ff02a94e
+2025-07-15T16:06:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,23,140.68.216.191,IN,AS8075,unknown,Linux 2.6.x,,,CVE-2005-4050,payload_captured,,3604,2666,85f1484fd490
+2025-07-15T16:38:00,Azure,East US,North America,Cowrie,telnet_login_attempt,TCP,3306,129.209.131.179,VN,AS13335,bad_reputation,Windows 7/8,postgres,qwerty,,connection_attempted,,3854,3359,63bbba29f8af
+2025-07-15T16:49:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,143,150.252.249.193,VE,AS45102,known_attacker,Windows 7/8,test,admin,,alert_logged,,4517,3803,6bbbd69bc719
+2025-07-15T21:12:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,23,62.69.210.128,RU,AS14618,known_attacker,Linux 3.x,,,CVE-2006-2369,authentication_failed,,7592,1001,25637d9412ef
+2025-07-15T23:34:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,995,246.156.185.165,US,AS45102,known_attacker,Linux 2.6.x,pi,letmein,,alert_logged,,6162,5664,348797486dbd
+2025-07-16T01:03:00,Azure,Southeast Asia,Asia,RDPY,rdp_auth_attempt,UDP,135,235.135.179.58,DE,AS14061,known_attacker,Linux 2.6.x,,,CVE-2006-2369,command_executed,,1704,752,d8e8d6b06e3e
+2025-07-16T01:40:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,53,136.50.119.226,RU,AS36351,known_attacker,Unknown,,,CVE-2012-0152,connection_attempted,,6660,1556,0c31f27f6773
+2025-07-16T03:02:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,22,89.97.201.120,SG,AS45102,unknown,Windows 7/8,admin,123456,,authentication_failed,,8261,2485,83b78976996a
+2025-07-16T03:47:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,TCP,135,121.75.83.86,VE,AS37963,bad_reputation,Linux 2.6.x,,,CVE-2001-0540,authentication_failed,,6496,418,0e3167d1aecb
+2025-07-16T05:16:00,Azure,East US,North America,Glutton,tcp_connect,TCP,3306,203.20.140.231,RU,AS16509,known_attacker,Unknown,,,,connection_attempted,,9226,4651,bccd0bf17f8d
+2025-07-16T07:20:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,TCP,143,57.69.79.224,CN,AS37963,bad_reputation,Unknown,,,,authentication_failed,,22,2532,5dac2f3267b7
+2025-07-16T08:42:00,GCP,us-east4-c,North America,RDPY,rdp_session_start,UDP,22,131.207.176.96,SG,AS16509,unknown,Linux 2.6.x,,,CVE-2012-0152,authentication_failed,,3981,1455,965189a05a70
+2025-07-16T12:44:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,TCP,995,16.238.53.17,GB,AS14618,known_attacker,Windows 7/8,,,CVE-2012-0152,alert_logged,,6571,3458,125ed32e4f6c
+2025-07-16T16:00:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,TCP,25,25.21.110.136,US,AS14618,bad_reputation,Windows 7/8,,,CVE-2006-2369,command_executed,,5373,4242,b8693daeb324
+2025-07-16T16:33:00,GCP,us-east4-c,North America,Glutton,tcp_connect,TCP,1433,26.100.226.35,US,AS14618,bad_reputation,Unknown,,,,connection_attempted,,4154,1306,7671dc630d00
+2025-07-16T22:03:00,Azure,East US,North America,Cowrie,command_input,UDP,587,169.137.164.180,CN,AS8075,known_attacker,Windows XP,admin,raspberry,,payload_captured,,7100,2608,8b3c0d9143c9
+2025-07-16T22:45:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,TCP,445,75.187.248.111,BR,AS14618,known_attacker,Linux 2.6.x,postgres,admin,,connection_attempted,,5099,3346,d42929530fa2
+2025-07-16T23:33:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,TCP,5900,167.56.205.158,IE,AS14061,known_attacker,Windows 7/8,,,CVE-2006-2369,authentication_failed,,5407,4417,780f332f895a
+2025-07-17T00:57:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,UDP,53,93.141.30.198,VN,AS14061,unknown,Linux 2.6.x,,,CVE-2006-2369,payload_captured,,5828,3516,bda548368b17
+2025-07-17T01:48:00,Azure,East US,North America,Glutton,ssh_banner_grab,UDP,3389,31.92.159.87,SG,AS13335,known_attacker,Linux 3.x,,,,command_executed,,6992,5403,99c5f28f7c65
+2025-07-17T01:54:00,Azure,East US,North America,Cowrie,command_input,UDP,22,85.10.251.204,RU,AS8075,bad_reputation,Windows 7/8,support,password,,alert_logged,,2338,2961,09b6e3350ba2
+2025-07-17T01:58:00,GCP,europe-west2-c,Europe,Glutton,tcp_connect,TCP,135,86.215.87.143,US,AS13335,known_attacker,Unknown,,,,payload_captured,,1001,3323,fdc98d70612e
+2025-07-17T02:26:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,UDP,25,99.229.44.38,DE,AS13335,bad_reputation,Unknown,,,CVE-2001-0540,command_executed,,2947,2171,3177b416b8d1
+2025-07-17T03:08:00,GCP,us-east4-c,North America,Dionaea,malware_capture,TCP,5060,249.217.254.91,VN,AS8075,known_attacker,Linux 2.6.x,,,CVE-2001-0540,command_executed,c59b2ebce19698f8,1120,1696,37c36b93d47f
+2025-07-17T04:22:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,UDP,1433,122.158.51.230,CN,AS15169,known_attacker,Linux 4.x,user,letmein,,command_executed,,2607,2174,eed91f1c9eab
+2025-07-17T05:00:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,TCP,1433,34.122.143.247,IN,AS36351,spam,Windows XP,,,CVE-2001-0540,connection_attempted,,4441,3707,58a4f713417a
+2025-07-17T06:18:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,143,153.109.181.17,RU,AS15169,bad_reputation,Windows XP,,,CVE-2001-0540,payload_captured,ad871699219fce5d,6257,3314,c89cf87dd60b
+2025-07-17T08:49:00,GCP,europe-west2-c,Europe,Cowrie,command_input,TCP,23,48.130.125.191,BR,AS8075,bad_reputation,Linux 2.6.x,oracle,P@ssw0rd,,connection_attempted,,5957,4677,4af64dfdeba9
+2025-07-17T09:01:00,GCP,us-east4-c,North America,Glastopf,lfi_rfi,TCP,80,181.219.252.27,US,AS15169,known_attacker,Linux 2.6.x,,,CVE-2006-2369,connection_attempted,08c05e1fc81c1cbc,4089,5926,69452e03dc7e
+2025-07-17T12:23:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,TCP,465,12.70.171.152,IN,AS16509,bad_reputation,Windows 7/8,,,CVE-2006-2369,authentication_failed,f380c7835d3750ff,6414,3051,be47b851e30a
+2025-07-17T17:04:00,Azure,East US,North America,Glutton,ssh_banner_grab,TCP,5900,175.173.229.134,VE,AS14618,bad_reputation,Linux 3.x,,,,command_executed,,6198,1960,3b19383d5d60
+2025-07-17T20:30:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,UDP,143,112.209.122.161,IN,AS45102,bad_reputation,Linux 2.6.x,admin,admin,,command_executed,,6686,3513,8fb7200d279d
+2025-07-17T20:37:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,UDP,80,225.130.173.142,BR,AS8075,bad_reputation,Linux 3.x,,,,authentication_failed,,7245,2740,dcdfcd39ad69
+2025-07-17T23:23:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,UDP,443,125.12.179.73,US,AS14618,bad_reputation,Windows XP,root,letmein,,command_executed,,1818,3244,0a4ec51cbe15
+2025-07-18T01:14:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,80,76.173.139.92,GB,AS13335,bad_reputation,Unknown,,,,connection_attempted,,4714,6360,7d5937f14a27
+2025-07-18T02:14:00,Azure,East US,North America,Heralding,credential_capture,UDP,110,3.21.139.28,US,AS14061,bad_reputation,Linux 3.x,user,toor,,connection_attempted,,9310,3041,ff3aabb85dcb
+2025-07-18T02:38:00,Azure,East US,North America,Cowrie,telnet_login_attempt,TCP,993,113.128.44.157,IN,AS36351,bad_reputation,Linux 4.x,test,P@ssw0rd,,payload_captured,,6113,3874,681ea52395b8
+2025-07-18T03:20:00,AWS,us-east-1c,North America,Cowrie,command_input,TCP,443,203.3.139.175,CN,AS14061,spam,Linux 3.x,user,qwerty,,payload_captured,,3067,5929,05c6743fcb71
+2025-07-18T03:23:00,Azure,Southeast Asia,Asia,Glutton,ssh_banner_grab,UDP,23,33.241.145.40,IE,AS14618,benign_suspected,Linux 3.x,,,,command_executed,,7481,1511,caf58b33edf2
+2025-07-18T06:03:00,Azure,East US,North America,Dionaea,service_probe,UDP,135,100.240.231.241,IE,AS36351,spam,Windows 7/8,,,CVE-2006-2369,command_executed,,2195,1757,c36be1a78253
+2025-07-18T06:16:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,TCP,135,90.161.192.28,DE,AS14061,bad_reputation,Linux 2.6.x,,,CVE-2001-0540,payload_captured,,7065,4311,b38fd35101c2
+2025-07-18T06:35:00,GCP,us-east4-c,North America,Heralding,credential_capture,TCP,587,10.182.231.49,IE,AS36351,known_attacker,Windows 7/8,test,admin,,alert_logged,,5316,4800,e32e9336c071
+2025-07-18T06:43:00,GCP,europe-west2-c,Europe,Heralding,credential_capture,UDP,5900,254.28.167.218,BR,AS14618,bad_reputation,Windows 7/8,oracle,raspberry,,alert_logged,,4577,3041,709884f6671a
+2025-07-18T11:12:00,GCP,us-east4-c,North America,Cowrie,command_input,UDP,8080,87.217.136.162,GB,AS36351,known_attacker,Unknown,,,,command_executed,,8533,2204,fe9aa6492e09
+2025-07-18T14:03:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,139,140.186.146.59,CN,AS14618,bad_reputation,Unknown,,,CVE-2006-2369,connection_attempted,,3471,890,cdadf2abb8bb
+2025-07-18T18:41:00,GCP,us-east4-c,North America,Cowrie,command_input,TCP,3306,194.99.174.187,CN,AS36351,known_attacker,Linux 3.x,test,toor,,command_executed,,3397,846,19ab8459da10
+2025-07-18T19:50:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,465,220.151.115.146,SG,AS45102,unknown,Linux 4.x,user,P@ssw0rd,,authentication_failed,,5291,3270,7740ac09cda3
+2025-07-18T20:15:00,GCP,us-east4-c,North America,Cowrie,command_input,TCP,465,77.240.50.84,CN,AS14618,bad_reputation,Windows 7/8,root,P@ssw0rd,,payload_captured,,397,819,4574e013a0b9
+2025-07-18T21:14:00,AWS,us-east-1c,North America,Suricata,ids_alert,UDP,445,24.124.242.24,SG,AS37963,bad_reputation,Unknown,,,CVE-2001-0540,command_executed,,5565,3450,12e6b3d6f66c
+2025-07-18T22:24:00,Azure,Southeast Asia,Asia,Suricata,ids_alert,TCP,135,98.72.186.162,US,AS15169,unknown,Windows XP,,,CVE-2005-4050,authentication_failed,,543,1475,5f0ff964ffbe
+2025-07-19T08:21:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,UDP,53,206.155.170.188,US,AS13335,known_attacker,Windows XP,,,CVE-2001-0540,alert_logged,f9005dc9c6cf8175,6251,2842,fe8c3f82b27d
+2025-07-19T08:33:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,TCP,110,119.206.216.99,DE,AS45102,benign_suspected,Unknown,pi,qwerty,,command_executed,,2798,3452,d1dd02c71e12
+2025-07-19T08:37:00,AWS,us-east-1c,North America,Dionaea,service_probe,UDP,5900,27.1.140.59,GB,AS16509,bad_reputation,Linux 2.6.x,,,CVE-2012-0152,payload_captured,,4035,4619,968ef4e802d9
+2025-07-19T10:16:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,TCP,1433,213.131.61.125,DE,AS37963,known_attacker,Linux 3.x,,,CVE-2012-0152,connection_attempted,,4157,1250,0f022bfd3e32
+2025-07-19T14:12:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,UDP,993,237.122.150.147,DE,AS13335,unknown,Windows XP,postgres,admin,,command_executed,,7897,4338,15f65a732e06
+2025-07-19T15:37:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,139,151.252.234.227,IE,AS36351,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,payload_captured,7fb18b067ffbc672,5046,3285,f43b7d75f7cc
+2025-07-19T15:46:00,Azure,East US,North America,Cowrie,command_input,TCP,5900,37.189.75.213,DE,AS16509,bad_reputation,Unknown,postgres,letmein,,command_executed,,3236,4262,0a5c84026042
+2025-07-19T15:57:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,110,131.79.63.74,IN,AS45102,bad_reputation,Windows 7/8,,,CVE-2012-0152,alert_logged,,4205,2365,3c158486e17c
+2025-07-19T16:12:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,UDP,23,216.212.158.13,IN,AS16509,known_attacker,Linux 3.x,,,CVE-2006-2369,connection_attempted,,3615,3202,7cdca19969b2
+2025-07-19T18:39:00,GCP,us-east4-c,North America,RDPY,rdp_session_start,TCP,1433,184.50.228.213,RU,AS37963,benign_suspected,Linux 2.6.x,,,CVE-2012-0152,command_executed,,10533,2919,4ccd66d0d085
+2025-07-19T18:47:00,Azure,Southeast Asia,Asia,Glastopf,sql_injection,UDP,445,155.113.90.83,US,AS14061,unknown,Unknown,,,CVE-2012-0152,command_executed,,5100,1336,35f2d89bea17
+2025-07-19T18:49:00,Azure,East US,North America,Glutton,ssh_banner_grab,TCP,53,234.58.31.135,VE,AS13335,known_attacker,Linux 2.6.x,,,,alert_logged,,4248,3227,42320f879602
+2025-07-19T18:50:00,AWS,us-east-1c,North America,Cowrie,command_input,UDP,8080,186.124.228.126,IN,AS45102,bad_reputation,Unknown,support,raspberry,,connection_attempted,,5609,1054,a956358ddf72
+2025-07-19T19:54:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,110,208.206.188.201,GB,AS16509,unknown,Windows 7/8,guest,letmein,,payload_captured,,8151,3495,3079428511cf
+2025-07-19T21:35:00,GCP,europe-west2-c,Europe,RDPY,rdp_session_start,UDP,25,37.44.42.234,DE,AS45102,bad_reputation,Linux 2.6.x,,,CVE-2001-0540,command_executed,,4640,2754,9dcd95671f87
+2025-07-20T01:34:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,TCP,465,209.65.64.4,SG,AS14061,bad_reputation,Unknown,,,,alert_logged,,5661,5277,aa19a41be90b
+2025-07-20T02:50:00,Azure,East US,North America,Cowrie,telnet_login_attempt,TCP,3389,174.158.186.157,GB,AS16509,bad_reputation,Windows 7/8,user,,,command_executed,,3350,5142,d8e0b623fee2
+2025-07-20T04:35:00,Azure,East US,North America,Cowrie,command_input,UDP,993,217.131.75.103,DE,AS45102,unknown,Windows 7/8,oracle,12345678,,alert_logged,,6947,4496,9b9054644291
+2025-07-20T05:43:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,995,213.109.112.78,SG,AS8075,bad_reputation,Windows XP,,,CVE-2001-0540,connection_attempted,cb699d55ba19ab69,1858,309,54f8bd1efae0
+2025-07-20T05:48:00,GCP,europe-west2-c,Europe,Glutton,ssh_banner_grab,TCP,23,168.155.209.88,IN,AS8075,known_attacker,Linux 3.x,,,,command_executed,,8716,3087,ec6ea2e6c00e
+2025-07-20T07:07:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,587,226.131.119.18,IE,AS15169,known_attacker,Unknown,,,CVE-2005-4050,authentication_failed,,5323,4057,9dab59029985
+2025-07-20T08:00:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,TCP,80,41.109.122.81,IN,AS37963,known_attacker,Windows 7/8,,,CVE-2001-0540,alert_logged,,6364,3444,9f436c66c69d
+2025-07-20T08:17:00,GCP,us-east4-c,North America,Dionaea,malware_capture,TCP,587,37.45.139.112,VE,AS13335,bad_reputation,Linux 4.x,,,CVE-2006-2369,alert_logged,6d1a5521defe29ff,6046,3358,8f4da7d76ecf
+2025-07-20T08:19:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,UDP,993,56.19.129.78,SG,AS37963,bad_reputation,Unknown,,,,connection_attempted,,2787,3550,8bd3d18ca405
+2025-07-20T08:53:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,UDP,5900,185.216.110.97,VN,AS16509,known_attacker,Windows 7/8,,,,authentication_failed,,7201,99,23e1cbf87c39
+2025-07-20T11:27:00,GCP,us-east4-c,North America,Glutton,tcp_connect,UDP,25,226.11.21.231,US,AS37963,spam,Unknown,,,,authentication_failed,,4413,5929,4d1a03b79153
+2025-07-20T11:56:00,GCP,europe-west2-c,Europe,RDPY,rdp_auth_attempt,UDP,22,175.66.55.36,SG,AS45102,bad_reputation,Linux 2.6.x,,,CVE-2001-0540,command_executed,,6591,1983,1d43830e96d3
+2025-07-20T12:14:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,995,7.1.168.215,RU,AS8075,spam,Linux 3.x,,,CVE-2001-0540,connection_attempted,,5386,176,e0a3384966c4
+2025-07-20T12:37:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,3389,230.195.121.145,SG,AS8075,unknown,Windows XP,,,CVE-2001-0540,authentication_failed,a90ac4f5dbe93243,8978,8016,060b44707b7c
+2025-07-20T12:57:00,Azure,East US,North America,Glastopf,lfi_rfi,TCP,80,124.189.127.215,VN,AS13335,bad_reputation,Windows 7/8,,,CVE-2012-0152,connection_attempted,7ff84d6ef796a1fb,4425,3555,6b3b5e5f803e
+2025-07-20T14:41:00,Azure,East US,North America,Cowrie,ssh_login_attempt,TCP,995,21.116.151.28,VE,AS45102,bad_reputation,Unknown,guest,12345678,,alert_logged,,2167,3749,8ae42bf27baa
+2025-07-20T15:04:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,UDP,5060,15.50.57.244,US,AS14061,bad_reputation,Windows XP,,,CVE-2012-0152,alert_logged,,6450,2294,f7eed0f2e8de
+2025-07-20T15:09:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,465,187.104.180.140,IN,AS37963,benign_suspected,Linux 3.x,,,CVE-2006-2369,command_executed,f343b2102a78868c,8969,2068,cc0144d8a6a3
+2025-07-20T15:16:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,UDP,25,177.156.3.96,GB,AS45102,spam,Unknown,,,CVE-2012-0152,payload_captured,,735,2859,668a5a83f647
+2025-07-20T15:47:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,TCP,53,54.6.36.118,GB,AS13335,bad_reputation,Unknown,,,,connection_attempted,,3269,2932,ec23c3b4726f
+2025-07-20T17:26:00,AWS,us-east-1c,North America,Cowrie,command_input,UDP,22,46.54.66.235,IN,AS14618,bad_reputation,Unknown,,,,connection_attempted,,3949,2482,0e3badbab7d2
+2025-07-20T20:30:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,TCP,465,180.81.213.126,VE,AS45102,known_attacker,Linux 2.6.x,guest,P@ssw0rd,,command_executed,,7300,1085,2d6ae3271fdf
+2025-07-20T21:47:00,Azure,East US,North America,VNClowpot,vnc_auth_attempt,UDP,443,179.53.227.226,GB,AS15169,unknown,Windows XP,,,CVE-2006-2369,authentication_failed,,5690,2933,df6053550c14
+2025-07-21T00:23:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,3389,113.117.22.216,SG,AS15169,benign_suspected,Windows XP,,,CVE-2005-4050,command_executed,,6655,4305,20168b1fc7c1
+2025-07-21T00:31:00,AWS,us-east-1c,North America,RDPY,rdp_auth_attempt,UDP,3389,88.40.115.226,IN,AS8075,bad_reputation,Linux 4.x,,,CVE-2006-2369,payload_captured,,5618,719,35d9c057fe49
+2025-07-21T01:26:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,UDP,135,142.227.14.119,SG,AS15169,bad_reputation,Unknown,postgres,toor,,authentication_failed,,6476,3190,40334b9e3286
+2025-07-21T01:34:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,TCP,23,198.251.45.247,IE,AS37963,bad_reputation,Linux 3.x,,,CVE-2006-2369,connection_attempted,,6311,2757,75fe44e2a727
+2025-07-21T03:49:00,AWS,us-east-1c,North America,Glutton,tcp_connect,TCP,465,11.66.60.204,RU,AS36351,known_attacker,Windows 7/8,,,,connection_attempted,,5337,616,8ab0229b6968
+2025-07-21T05:21:00,AWS,us-east-1c,North America,Heralding,credential_capture,UDP,445,24.97.146.104,IN,AS37963,bad_reputation,Linux 3.x,postgres,12345678,,command_executed,,5301,2037,b9c93c782a2e
+2025-07-21T06:37:00,GCP,us-east4-c,North America,Glastopf,lfi_rfi,UDP,5060,209.232.115.55,SG,AS37963,spam,Linux 4.x,,,CVE-2006-2369,alert_logged,82f6d677813729da,7283,2388,1e8adc676cb0
+2025-07-21T07:45:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,TCP,110,142.78.154.11,SG,AS14061,bad_reputation,Linux 3.x,,,CVE-2006-2369,command_executed,,5922,991,d1d6b632d5de
+2025-07-21T08:03:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,995,43.100.250.89,US,AS16509,unknown,Linux 3.x,root,raspberry,,alert_logged,,221,2069,3fe7b9253eab
+2025-07-21T09:55:00,Azure,East US,North America,VNClowpot,vnc_auth_attempt,UDP,995,50.17.70.5,IE,AS14061,known_attacker,Linux 3.x,,,CVE-2006-2369,connection_attempted,,9302,2662,e29fdec7f96c
+2025-07-21T10:53:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,TCP,143,100.214.205.238,VE,AS13335,bad_reputation,Windows XP,,,,payload_captured,,6400,1883,c0854fe2b798
+2025-07-21T11:13:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,23,119.67.9.143,VN,AS45102,bad_reputation,Windows XP,,,,alert_logged,,2958,3398,0bbf6fd1b97e
+2025-07-21T12:15:00,Azure,Southeast Asia,Asia,RDPY,rdp_auth_attempt,TCP,443,217.96.207.158,VN,AS37963,known_attacker,Windows 7/8,,,CVE-2012-0152,connection_attempted,,1950,2357,b78ff0c81fad
+2025-07-21T13:03:00,GCP,us-east4-c,North America,Suricata,ids_alert,TCP,80,79.198.177.123,VN,AS45102,known_attacker,Windows XP,,,CVE-2012-0152,command_executed,,5655,5582,d99b7666d9de
+2025-07-21T17:40:00,GCP,us-east4-c,North America,RDPY,rdp_session_start,TCP,110,152.23.232.206,US,AS16509,known_attacker,Linux 3.x,,,CVE-2001-0540,command_executed,,5774,3509,bc4582a22112
+2025-07-21T18:29:00,GCP,europe-west2-c,Europe,Heralding,credential_capture,TCP,3389,111.85.20.156,CN,AS14061,bad_reputation,Windows XP,pi,qwerty,,alert_logged,,8672,255,f26487e3b43c
+2025-07-21T18:31:00,Azure,East US,North America,Dionaea,service_probe,TCP,993,23.96.94.6,RU,AS45102,bad_reputation,Unknown,,,CVE-2005-4050,authentication_failed,,6539,2235,c4fea8c6a481
+2025-07-21T19:02:00,AWS,us-east-1c,North America,Cowrie,command_input,UDP,25,246.18.41.46,US,AS13335,bad_reputation,Linux 4.x,root,letmein,,authentication_failed,,4658,1960,57875a5d557c
+2025-07-21T19:53:00,Azure,Southeast Asia,Asia,Glutton,ssh_banner_grab,UDP,445,67.78.51.5,GB,AS36351,spam,Windows XP,,,,payload_captured,,3234,1402,7ebd6df41884
+2025-07-21T20:48:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,TCP,5900,184.155.132.69,IN,AS13335,known_attacker,Linux 3.x,user,letmein,,alert_logged,,7679,4123,45788587fd39
+2025-07-21T22:26:00,GCP,europe-west2-c,Europe,Glastopf,lfi_rfi,UDP,110,199.88.84.105,VE,AS37963,known_attacker,Windows XP,,,CVE-2006-2369,alert_logged,09fa7401e20e4325,6930,3982,1ddab19c28ae
+2025-07-22T01:04:00,AWS,us-east-1c,North America,RDPY,rdp_auth_attempt,UDP,53,209.91.228.35,VE,AS15169,bad_reputation,Unknown,,,CVE-2006-2369,payload_captured,,2695,3237,7bd806879b13
+2025-07-22T01:57:00,AWS,us-east-1c,North America,Glastopf,web_attack,TCP,1433,118.135.48.77,GB,AS36351,bad_reputation,Linux 2.6.x,,,CVE-2001-0540,payload_captured,1a073c8157794594,7232,2165,9c5e842578dd
+2025-07-22T03:08:00,GCP,us-east4-c,North America,RDPY,rdp_auth_attempt,TCP,25,139.206.244.16,BR,AS36351,bad_reputation,Linux 3.x,,,CVE-2012-0152,connection_attempted,,4250,2020,812cd5255ed8
+2025-07-22T04:17:00,Azure,East US,North America,Dionaea,service_probe,TCP,135,201.251.130.168,IE,AS14061,unknown,Unknown,,,CVE-2012-0152,connection_attempted,,6960,4154,9683230a71e0
+2025-07-22T04:26:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,139,36.213.23.100,IE,AS13335,bad_reputation,Linux 3.x,,,CVE-2006-2369,connection_attempted,,4507,1620,46fc6324f97b
+2025-07-22T05:31:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,139,60.183.10.164,IN,AS13335,known_attacker,Linux 3.x,postgres,12345678,,authentication_failed,,5666,4007,a2a8d4d2ffdb
+2025-07-22T06:06:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,143,73.27.159.67,GB,AS36351,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,authentication_failed,fe4ba219d45844f9,5840,5468,1b8423f5c7dc
+2025-07-22T07:42:00,Azure,East US,North America,Glastopf,web_attack,TCP,143,26.110.114.171,BR,AS15169,bad_reputation,Linux 3.x,,,CVE-2005-4050,command_executed,c6a2f3a1ec4aa2af,2743,4063,01fd6633e5d4
+2025-07-22T09:39:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,587,180.52.170.182,DE,AS15169,bad_reputation,Linux 3.x,,,CVE-2012-0152,payload_captured,,4409,2822,47d6f9a3e4b5
+2025-07-22T11:44:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,TCP,135,29.41.182.47,DE,AS45102,bad_reputation,Windows XP,,,CVE-2005-4050,authentication_failed,8e8d55b1c756f871,2573,1980,37ce2565db5d
+2025-07-22T13:53:00,AWS,us-east-1c,North America,Dionaea,service_probe,TCP,139,192.239.54.222,IN,AS36351,unknown,Linux 3.x,,,CVE-2012-0152,payload_captured,,6817,4154,9e70a569ad2a
+2025-07-22T14:09:00,GCP,us-east4-c,North America,Glutton,tcp_connect,TCP,3389,175.92.72.202,CN,AS37963,known_attacker,Windows 7/8,,,,authentication_failed,,3410,5978,b63e7351add6
+2025-07-22T14:56:00,Azure,East US,North America,Dionaea,malware_capture,UDP,3306,230.15.236.218,CN,AS16509,bad_reputation,Linux 4.x,,,CVE-2005-4050,authentication_failed,5cdf6c6456a50829,2166,3469,388385885ea0
+2025-07-22T15:25:00,GCP,us-east4-c,North America,Suricata,ids_alert,TCP,5060,81.104.160.53,VE,AS14618,known_attacker,Windows XP,,,CVE-2001-0540,alert_logged,,4004,3382,158d92044e4b
+2025-07-22T16:15:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,445,101.106.43.89,SG,AS16509,known_attacker,Windows XP,,,CVE-2005-4050,authentication_failed,,5779,4241,87bc84814825
+2025-07-22T17:10:00,Azure,East US,North America,Heralding,credential_capture,TCP,445,98.141.159.206,CN,AS14618,known_attacker,Windows 7/8,oracle,admin,,authentication_failed,,8935,138,1f91f6906d5a
+2025-07-22T18:04:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,UDP,5060,157.143.30.13,RU,AS15169,unknown,Unknown,postgres,letmein,,authentication_failed,,1149,4262,e540517b23cf
+2025-07-22T18:37:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,5060,7.30.160.230,VE,AS15169,known_attacker,Windows 7/8,,,,command_executed,,5421,2903,b47fe3f65ad8
+2025-07-22T18:43:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,25,231.49.172.12,IN,AS14618,known_attacker,Unknown,user,12345678,,payload_captured,,5868,4320,cc1351945137
+2025-07-22T19:17:00,Azure,Southeast Asia,Asia,RDPY,rdp_auth_attempt,TCP,1433,63.167.24.120,RU,AS14061,known_attacker,Unknown,,,CVE-2012-0152,payload_captured,,5689,3518,a83ed802e8ed
+2025-07-22T20:35:00,Azure,East US,North America,Dionaea,service_probe,TCP,993,209.214.91.201,US,AS15169,bad_reputation,Linux 3.x,,,CVE-2006-2369,authentication_failed,,7519,2753,c083ddc59755
+2025-07-23T00:20:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,UDP,135,219.227.116.203,BR,AS14618,bad_reputation,Linux 2.6.x,postgres,P@ssw0rd,,authentication_failed,,8214,4106,ab88576648a4
+2025-07-23T02:54:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,139,146.161.194.23,DE,AS36351,known_attacker,Linux 2.6.x,oracle,password,,alert_logged,,4999,1227,b378b97f7976
+2025-07-23T02:58:00,AWS,us-east-1c,North America,Dionaea,malware_capture,UDP,443,223.201.74.73,BR,AS36351,spam,Windows XP,,,CVE-2001-0540,authentication_failed,6bd460f5763c27c3,5320,2732,51ca9db80adf
+2025-07-23T03:06:00,Azure,East US,North America,Mailoney,smtp_probe,TCP,465,110.245.127.50,GB,AS36351,bad_reputation,Linux 2.6.x,,,,payload_captured,fefb2bed7cfcb32d,5684,3428,c2b0e9e30973
+2025-07-23T05:41:00,Azure,East US,North America,Glastopf,lfi_rfi,UDP,80,154.20.35.112,VN,AS14618,bad_reputation,Windows XP,,,,command_executed,a93e2ea714d2e0b7,6240,2610,1c7ab462236c
+2025-07-23T08:53:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,465,95.94.105.178,GB,AS36351,known_attacker,Windows XP,,,CVE-2001-0540,alert_logged,,6533,6409,028c596199a1
+2025-07-23T09:30:00,GCP,europe-west2-c,Europe,Mailoney,relay_attempt,UDP,135,14.230.66.128,IE,AS13335,known_attacker,Windows 7/8,,,,payload_captured,,4326,411,2d30e862febe
+2025-07-23T10:00:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,25,241.125.238.48,GB,AS14061,bad_reputation,Linux 3.x,,,,authentication_failed,,6391,3480,432b4b396a84
+2025-07-23T11:09:00,AWS,us-east-1c,North America,Glutton,tcp_connect,UDP,587,217.205.84.39,CN,AS8075,known_attacker,Linux 3.x,,,,connection_attempted,,3710,5363,85a9b81084f4
+2025-07-23T11:54:00,Azure,Southeast Asia,Asia,Cowrie,telnet_login_attempt,TCP,110,8.211.60.69,DE,AS36351,bad_reputation,Windows XP,,,,alert_logged,,5409,3167,2b06d4b980ba
+2025-07-23T12:48:00,GCP,europe-west2-c,Europe,Glastopf,lfi_rfi,UDP,25,22.103.62.100,BR,AS14061,known_attacker,Unknown,,,CVE-2012-0152,payload_captured,18a001044b5dff34,8050,3228,356c61b628cf
+2025-07-23T18:15:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,23,30.17.135.236,US,AS14061,unknown,Windows XP,,,CVE-2005-4050,connection_attempted,bacd7374f2776027,6200,2349,91ccfb0da5a2
+2025-07-23T20:16:00,AWS,us-east-1c,North America,Glutton,tcp_connect,TCP,25,193.154.108.175,IN,AS13335,known_attacker,Windows XP,,,,command_executed,,2763,2952,b67772a54238
+2025-07-23T20:30:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,UDP,587,83.73.137.148,DE,AS37963,bad_reputation,Windows 7/8,,,CVE-2006-2369,command_executed,,2355,6659,463832ce85b2
+2025-07-23T20:59:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,587,253.87.18.201,GB,AS36351,bad_reputation,Unknown,,,CVE-2006-2369,payload_captured,,8311,3721,88b82f5bbb4b
+2025-07-23T22:26:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,3306,64.107.53.233,CN,AS13335,bad_reputation,Linux 2.6.x,test,,,payload_captured,,6346,1799,64ee640bf673
+2025-07-23T23:19:00,Azure,East US,North America,Glutton,ssh_banner_grab,TCP,80,77.28.199.184,VN,AS45102,known_attacker,Linux 3.x,,,,connection_attempted,,4384,3131,cbc1fa2ecdcf
+2025-07-24T01:25:00,Azure,Southeast Asia,Asia,Glastopf,web_attack,UDP,22,17.104.49.166,GB,AS14061,unknown,Windows XP,,,CVE-2001-0540,alert_logged,93820b57b8969922,7378,5089,95b4f761b761
+2025-07-24T01:42:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,TCP,3389,229.76.211.144,US,AS36351,known_attacker,Linux 4.x,,,CVE-2005-4050,alert_logged,,4644,3808,d6a61b6864af
+2025-07-24T02:12:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,995,119.226.139.14,SG,AS15169,bad_reputation,Linux 3.x,guest,,,connection_attempted,,5525,3963,a10643c9c3db
+2025-07-24T03:08:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,445,251.42.122.18,SG,AS14618,known_attacker,Unknown,user,12345678,,connection_attempted,,5691,4511,84e9bde214f9
+2025-07-24T03:35:00,GCP,us-east4-c,North America,Glutton,tcp_connect,UDP,22,196.124.55.112,DE,AS36351,bad_reputation,Unknown,,,,command_executed,,7405,655,13926bcbeaa7
+2025-07-24T03:42:00,AWS,us-east-1c,North America,Glastopf,web_attack,UDP,995,228.235.252.29,IN,AS45102,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,command_executed,de37a7a421da3ed9,5954,4221,03234879c2ba
+2025-07-24T08:11:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,80,9.170.238.154,VE,AS14618,benign_suspected,Windows 7/8,test,12345678,,payload_captured,,7115,3542,34466b2b0ab7
+2025-07-24T11:37:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,UDP,587,150.63.74.215,CN,AS45102,bad_reputation,Linux 4.x,,,CVE-2005-4050,connection_attempted,5db51a664a1a4c8f,4637,3349,60a7370d9f29
+2025-07-24T12:35:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,TCP,993,205.185.182.97,US,AS15169,bad_reputation,Linux 2.6.x,pi,raspberry,,authentication_failed,,4942,2945,f9d78b261109
+2025-07-24T13:53:00,GCP,europe-west2-c,Europe,Glutton,ssh_banner_grab,UDP,5900,249.49.98.148,DE,AS16509,bad_reputation,Unknown,,,,connection_attempted,,8607,5597,e5b872162e17
+2025-07-24T14:22:00,AWS,us-east-1c,North America,RDPY,rdp_auth_attempt,TCP,22,160.76.127.66,IE,AS8075,bad_reputation,Windows XP,,,CVE-2012-0152,alert_logged,,6351,2384,248363275b82
+2025-07-24T15:05:00,AWS,us-east-1c,North America,Dionaea,malware_capture,UDP,3306,96.211.141.209,VE,AS14618,bad_reputation,Linux 3.x,,,,payload_captured,d2407e42f1f19d5c,4110,3525,846febc15601
+2025-07-24T16:03:00,AWS,us-east-1c,North America,Glutton,tcp_connect,UDP,465,25.240.184.81,GB,AS37963,bad_reputation,Windows XP,,,,command_executed,,2501,3526,8ebdf27b32eb
+2025-07-24T16:34:00,Azure,Southeast Asia,Asia,Glastopf,lfi_rfi,UDP,53,253.204.90.121,IE,AS16509,bad_reputation,Windows 7/8,,,CVE-2005-4050,alert_logged,f9f814235969c3b9,5896,180,231875350f2f
+2025-07-24T17:10:00,GCP,us-east4-c,North America,Dionaea,malware_capture,TCP,135,215.131.47.128,IN,AS37963,known_attacker,Linux 2.6.x,,,CVE-2012-0152,alert_logged,9fcc11728be8926d,2764,2093,6d18be81372e
+2025-07-24T18:20:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,UDP,53,18.21.87.207,RU,AS15169,known_attacker,Windows 7/8,,,CVE-2006-2369,authentication_failed,,3292,3863,4c54893a769b
+2025-07-24T18:27:00,Azure,East US,North America,Dionaea,malware_capture,UDP,23,67.151.143.249,IN,AS36351,known_attacker,Unknown,,,CVE-2006-2369,alert_logged,8fd5ca044a554cee,6537,5018,06ee21074d32
+2025-07-24T18:42:00,AWS,us-east-1c,North America,Glastopf,sql_injection,UDP,1433,189.136.203.215,BR,AS15169,bad_reputation,Linux 2.6.x,,,,alert_logged,,3247,862,4e3431eb0828
+2025-07-24T19:51:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,8080,87.145.197.202,RU,AS36351,bad_reputation,Unknown,admin,qwerty,,authentication_failed,,7665,4483,3e569f421ba4
+2025-07-24T20:14:00,Azure,East US,North America,VNClowpot,vnc_auth_attempt,UDP,443,92.113.234.149,DE,AS16509,bad_reputation,Windows XP,,,CVE-2001-0540,alert_logged,,5825,2051,0aa75f2aada0
+2025-07-24T20:31:00,Azure,East US,North America,Cowrie,ssh_login_attempt,UDP,135,167.121.152.137,VN,AS36351,known_attacker,Linux 2.6.x,admin,toor,,connection_attempted,,5753,1903,f381230f508e
+2025-07-24T23:44:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,TCP,465,143.23.146.94,GB,AS16509,unknown,Unknown,,,CVE-2001-0540,command_executed,,6868,3459,151520b64110
+2025-07-25T00:01:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,UDP,22,219.12.29.182,SG,AS14618,bad_reputation,Linux 3.x,,,CVE-2005-4050,connection_attempted,,2885,2866,44294da6821d
+2025-07-25T03:33:00,Azure,East US,North America,RDPY,rdp_session_start,TCP,110,100.213.235.6,VE,AS13335,known_attacker,Linux 2.6.x,,,CVE-2005-4050,alert_logged,,2866,2885,36249669a291
+2025-07-25T05:30:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,TCP,135,11.165.151.222,GB,AS37963,known_attacker,Windows 7/8,admin,qwerty,,authentication_failed,,6226,2765,59cb6b35355e
+2025-07-25T06:05:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,UDP,80,253.58.173.248,BR,AS14061,bad_reputation,Unknown,pi,raspberry,,connection_attempted,,1580,1557,23c8331fbbba
+2025-07-25T06:31:00,GCP,us-east4-c,North America,Cowrie,telnet_login_attempt,TCP,143,54.208.111.163,GB,AS15169,known_attacker,Unknown,support,P@ssw0rd,,alert_logged,,3365,1728,167bf35bfdc2
+2025-07-25T09:41:00,Azure,East US,North America,Cowrie,command_input,UDP,5060,233.172.209.72,VE,AS16509,known_attacker,Windows XP,,,,payload_captured,,7193,4374,b704e388ed3b
+2025-07-25T09:56:00,GCP,us-east4-c,North America,Mailoney,smtp_probe,UDP,993,1.211.68.52,US,AS8075,known_attacker,Linux 3.x,,,,authentication_failed,ed0f8d88c425f32e,5904,3360,dbbcbd3eb70a
+2025-07-25T10:28:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,1433,197.172.48.146,US,AS13335,known_attacker,Windows 7/8,oracle,P@ssw0rd,,authentication_failed,,5312,2410,85e97f992e66
+2025-07-25T11:13:00,Azure,East US,North America,Cowrie,command_input,TCP,110,121.148.250.174,RU,AS16509,unknown,Windows 7/8,postgres,admin,,alert_logged,,5502,1381,d36e6951e710
+2025-07-25T12:46:00,Azure,East US,North America,Glutton,tcp_connect,TCP,465,146.71.144.210,VN,AS45102,bad_reputation,Linux 3.x,,,,payload_captured,,3872,5321,dfa5bec005dc
+2025-07-25T16:41:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,UDP,23,18.155.87.226,SG,AS8075,known_attacker,Linux 3.x,,,CVE-2001-0540,connection_attempted,,5345,608,91a288e541c4
+2025-07-25T17:30:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,UDP,1433,198.22.226.161,VE,AS37963,bad_reputation,Linux 4.x,root,123456,,payload_captured,,7291,3490,8c5fcbdeda40
+2025-07-25T18:26:00,Azure,Southeast Asia,Asia,Mailoney,smtp_probe,UDP,3306,139.32.125.202,GB,AS8075,unknown,Unknown,,,,payload_captured,1f9cf088610f84b6,5538,904,5e36e0f30608
+2025-07-25T18:54:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,TCP,23,231.51.238.194,IE,AS45102,bad_reputation,Linux 2.6.x,support,toor,,command_executed,,6647,3741,7dba0f952ca0
+2025-07-25T19:49:00,Azure,Southeast Asia,Asia,RDPY,rdp_session_start,UDP,23,182.99.216.174,GB,AS36351,benign_suspected,Windows XP,,,CVE-2005-4050,connection_attempted,,3110,629,282fe6f2caf5
+2025-07-25T22:33:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,8080,164.247.8.155,VN,AS13335,unknown,Windows XP,user,qwerty,,alert_logged,,5215,4520,8d7486e05f80
+2025-07-25T23:16:00,AWS,us-east-1c,North America,Glastopf,lfi_rfi,UDP,993,193.3.195.21,IE,AS14618,unknown,Linux 2.6.x,,,CVE-2001-0540,payload_captured,4c33575902f17dcc,7654,4698,aab02f6e8d81
+2025-07-25T23:51:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,139,95.129.41.21,BR,AS15169,spam,Linux 3.x,,,CVE-2001-0540,alert_logged,,3185,2757,d013d935d374
+2025-07-25T23:54:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,53,172.234.72.5,CN,AS14061,known_attacker,Linux 3.x,,,,alert_logged,,1447,1581,9d5e8c2f1a6b
+2025-07-26T02:09:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,5060,211.1.1.147,US,AS14618,bad_reputation,Windows 7/8,,,CVE-2001-0540,authentication_failed,,3800,733,47e56ab6e096
+2025-07-26T04:30:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,465,104.141.85.58,CN,AS45102,bad_reputation,Windows 7/8,,,CVE-2001-0540,connection_attempted,,805,336,8a5c60f52728
+2025-07-26T04:52:00,Azure,East US,North America,Cowrie,ssh_login_attempt,UDP,1433,124.178.224.107,RU,AS14061,known_attacker,Windows XP,guest,raspberry,,command_executed,,4413,4107,7687e217decd
+2025-07-26T06:30:00,Azure,East US,North America,RDPY,rdp_session_start,UDP,135,227.111.115.165,SG,AS15169,known_attacker,Windows 7/8,,,CVE-2006-2369,command_executed,,5885,1670,44eb1bd69beb
+2025-07-26T08:35:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,TCP,23,134.244.79.132,VN,AS13335,bad_reputation,Windows XP,,,CVE-2005-4050,connection_attempted,b8554bb3d67dbbc4,4459,2704,dfb4ff2fda88
+2025-07-26T09:42:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,TCP,139,47.84.97.146,SG,AS14061,bad_reputation,Windows 7/8,,,CVE-2001-0540,connection_attempted,045394ae077685aa,4224,2355,c9e0ba56cbd9
+2025-07-26T12:06:00,Azure,Southeast Asia,Asia,Suricata,ids_alert,TCP,22,48.251.123.213,RU,AS37963,known_attacker,Linux 3.x,,,CVE-2012-0152,payload_captured,,3477,2518,b8cd4170d8a5
+2025-07-26T15:00:00,AWS,us-east-1c,North America,Cowrie,command_input,TCP,80,35.220.222.13,VE,AS15169,known_attacker,Linux 3.x,oracle,,,authentication_failed,,2547,1134,7ac1dabe211b
+2025-07-26T15:31:00,Azure,Southeast Asia,Asia,Glastopf,sql_injection,TCP,139,96.74.99.231,IN,AS8075,bad_reputation,Linux 2.6.x,,,CVE-2012-0152,alert_logged,,5633,3023,b36393d997fa
+2025-07-26T16:55:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,5900,199.247.195.168,VE,AS8075,known_attacker,Linux 3.x,,,,authentication_failed,,3920,3626,8d09fdd7c0a7
+2025-07-26T17:21:00,Azure,Southeast Asia,Asia,Cowrie,telnet_login_attempt,TCP,1433,110.168.132.103,SG,AS15169,benign_suspected,Linux 3.x,oracle,P@ssw0rd,,payload_captured,,5847,2889,cff0185caf54
+2025-07-26T23:31:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,UDP,22,151.111.29.222,US,AS37963,known_attacker,Linux 3.x,user,letmein,,connection_attempted,,6008,1491,377d23186cd4
+2025-07-27T00:27:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,TCP,993,24.138.112.254,IN,AS16509,benign_suspected,Unknown,user,password,,authentication_failed,,5151,4603,57f4578a925a
+2025-07-27T00:36:00,GCP,europe-west2-c,Europe,Cowrie,command_input,TCP,1433,167.188.85.126,IE,AS13335,known_attacker,Windows 7/8,oracle,admin,,payload_captured,,6727,5314,c99daa4580e8
+2025-07-27T02:58:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,TCP,22,29.159.222.103,IN,AS15169,known_attacker,Linux 3.x,user,12345678,,payload_captured,,1627,2017,c4c8dd969e38
+2025-07-27T02:59:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,TCP,5060,242.123.153.153,SG,AS14618,bad_reputation,Windows XP,,,CVE-2006-2369,alert_logged,,1174,1569,55e55f88885d
+2025-07-27T03:49:00,GCP,europe-west2-c,Europe,VNClowpot,vnc_auth_attempt,TCP,5900,50.227.110.163,IN,AS37963,known_attacker,Linux 2.6.x,,,CVE-2001-0540,payload_captured,,6672,3221,966d3e36d6bc
+2025-07-27T09:42:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,UDP,3389,24.155.22.134,BR,AS16509,known_attacker,Linux 2.6.x,,,CVE-2005-4050,connection_attempted,08dc88848cc1d171,7780,376,1fd084b2b152
+2025-07-27T10:43:00,Azure,Southeast Asia,Asia,Dionaea,service_probe,TCP,8080,125.165.83.152,DE,AS36351,known_attacker,Windows 7/8,,,CVE-2006-2369,command_executed,,5942,2454,43cf046fbc13
+2025-07-27T12:05:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,UDP,139,217.23.119.110,SG,AS14618,known_attacker,Unknown,pi,123456,,connection_attempted,,4641,3521,889ededb6fad
+2025-07-27T12:25:00,GCP,europe-west2-c,Europe,Dionaea,service_probe,UDP,110,244.171.240.131,RU,AS16509,known_attacker,Windows XP,,,CVE-2001-0540,payload_captured,,2814,3536,c16d3401ef54
+2025-07-27T14:15:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,465,185.253.49.154,VE,AS45102,known_attacker,Linux 3.x,,,CVE-2001-0540,payload_captured,d1398772354574bd,2986,3677,0c0aa715042a
+2025-07-27T14:38:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,TCP,5900,232.187.110.180,GB,AS36351,unknown,Unknown,guest,123456,,command_executed,,2346,2153,a9cb371c0805
+2025-07-27T14:47:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,465,217.164.205.249,IN,AS16509,spam,Linux 3.x,,,CVE-2001-0540,authentication_failed,,4843,3137,7bcdc0d19b32
+2025-07-27T17:57:00,GCP,us-east4-c,North America,Glastopf,sql_injection,TCP,110,67.147.54.82,CN,AS13335,benign_suspected,Windows XP,,,CVE-2006-2369,alert_logged,,6527,1731,3e9acefc72dc
+2025-07-27T18:16:00,AWS,us-east-1c,North America,Glutton,ssh_banner_grab,UDP,22,59.254.249.148,US,AS13335,known_attacker,Windows XP,,,,connection_attempted,,5975,4467,6dfcd05fe2c6
+2025-07-27T18:39:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,TCP,80,183.71.50.251,VE,AS8075,known_attacker,Linux 4.x,,,,command_executed,b458d16025b03dba,4487,3415,c746ddf187cd
+2025-07-27T18:43:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,TCP,5900,27.219.133.209,VN,AS8075,unknown,Linux 3.x,,,CVE-2001-0540,command_executed,,4349,2514,0169623a06c9
+2025-07-27T19:13:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,445,83.111.213.51,BR,AS15169,bad_reputation,Unknown,,,,command_executed,,4611,2698,b5a5b218125d
+2025-07-27T19:14:00,Azure,East US,North America,Dionaea,exploit_attempt,TCP,1433,219.96.225.32,CN,AS14061,bad_reputation,Unknown,,,CVE-2006-2369,command_executed,,6304,3130,d4206bb20f9b
+2025-07-27T19:30:00,AWS,us-east-1c,North America,Dionaea,service_probe,UDP,587,149.249.153.120,IE,AS15169,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,authentication_failed,,6522,3664,7d6badcb2efd
+2025-07-27T21:13:00,GCP,europe-west2-c,Europe,Cowrie,command_input,TCP,80,218.212.41.99,BR,AS37963,known_attacker,Windows XP,postgres,123456,,alert_logged,,5445,2593,3a79ed82fe29
+2025-07-27T22:37:00,Azure,Southeast Asia,Asia,Cowrie,command_input,TCP,465,119.117.161.106,CN,AS8075,bad_reputation,Linux 4.x,root,,,payload_captured,,6452,4497,1909de691570
+2025-07-27T23:44:00,Azure,East US,North America,Mailoney,smtp_probe,UDP,445,233.68.168.103,GB,AS14061,bad_reputation,Unknown,,,,authentication_failed,8576763cb3f92321,6010,1835,ee6da18963b0
+2025-07-28T01:00:00,GCP,europe-west2-c,Europe,Dionaea,exploit_attempt,UDP,587,14.194.16.76,VE,AS36351,known_attacker,Linux 3.x,,,CVE-2006-2369,alert_logged,,6187,3798,adc32ab1cafb
+2025-07-28T03:26:00,AWS,us-east-1c,North America,VNClowpot,vnc_auth_attempt,UDP,5060,109.233.96.246,SG,AS13335,known_attacker,Linux 3.x,,,CVE-2012-0152,payload_captured,,6520,244,f015cbc4763f
+2025-07-28T05:07:00,GCP,europe-west2-c,Europe,Cowrie,command_input,UDP,3306,140.109.82.35,BR,AS14061,bad_reputation,Linux 2.6.x,guest,P@ssw0rd,,connection_attempted,,7101,3300,b636b3c248d9
+2025-07-28T05:24:00,GCP,us-east4-c,North America,RDPY,rdp_auth_attempt,TCP,993,197.136.225.233,VN,AS45102,known_attacker,Windows XP,,,CVE-2006-2369,alert_logged,,6218,1670,fce530bd298f
+2025-07-28T05:39:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,TCP,23,248.73.59.110,IN,AS15169,spam,Linux 3.x,,,CVE-2005-4050,command_executed,e32ef50e50ba379a,6250,6119,3de884ee41d7
+2025-07-28T08:03:00,AWS,us-east-1c,North America,RDPY,rdp_session_start,UDP,993,191.84.220.249,VE,AS13335,bad_reputation,Unknown,,,CVE-2001-0540,connection_attempted,,4297,4929,a3a748db9ddc
+2025-07-28T10:12:00,Azure,East US,North America,Glutton,ssh_banner_grab,UDP,3389,217.186.238.139,VN,AS36351,bad_reputation,Unknown,,,,connection_attempted,,1754,3244,604a22256f4a
+2025-07-28T11:03:00,GCP,europe-west2-c,Europe,Glutton,ssh_banner_grab,TCP,3389,182.189.229.240,GB,AS15169,bad_reputation,Unknown,,,,authentication_failed,,3943,2285,0f071a7a6f22
+2025-07-28T12:31:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,139,197.206.254.35,DE,AS13335,bad_reputation,Linux 3.x,test,admin,,connection_attempted,,2822,4526,2143f135129b
+2025-07-28T12:48:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,22,51.101.192.220,US,AS15169,benign_suspected,Unknown,,,,authentication_failed,,6350,2573,d3b5b86061e1
+2025-07-28T13:01:00,GCP,us-east4-c,North America,Cowrie,command_input,UDP,465,157.212.102.109,US,AS37963,known_attacker,Linux 2.6.x,pi,raspberry,,connection_attempted,,9742,2831,bfa892917617
+2025-07-28T14:33:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,110,174.2.40.5,US,AS13335,bad_reputation,Linux 3.x,root,P@ssw0rd,,alert_logged,,5160,2511,a3d1360dbbd3
+2025-07-28T16:38:00,Azure,East US,North America,Dionaea,service_probe,UDP,5900,240.252.144.30,BR,AS14061,known_attacker,Windows XP,,,CVE-2006-2369,connection_attempted,,5464,5251,828f0602e057
+2025-07-28T16:45:00,AWS,us-east-1c,North America,Glutton,tcp_connect,TCP,143,131.148.240.62,SG,AS15169,known_attacker,Windows 7/8,,,,authentication_failed,,5119,3491,26442e09c303
+2025-07-28T16:55:00,AWS,us-east-1c,North America,Cowrie,ssh_login_attempt,TCP,995,122.233.241.15,IE,AS45102,known_attacker,Linux 4.x,user,P@ssw0rd,,payload_captured,,8250,2455,19e45705ab03
+2025-07-28T17:42:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,1433,24.254.105.10,IN,AS14061,bad_reputation,Windows 7/8,admin,12345678,,alert_logged,,6074,3167,d4578d8b5b5b
+2025-07-28T17:48:00,GCP,us-east4-c,North America,Dionaea,service_probe,TCP,53,93.242.141.28,VN,AS36351,bad_reputation,Linux 3.x,,,CVE-2001-0540,connection_attempted,,8673,1922,39f233d3cbd5
+2025-07-28T21:11:00,GCP,us-east4-c,North America,Glutton,tcp_connect,TCP,3389,182.190.16.53,VE,AS8075,bad_reputation,Windows 7/8,,,,alert_logged,,7269,5324,fa4ec5e4ecdc
+2025-07-28T23:42:00,GCP,europe-west2-c,Europe,Dionaea,malware_capture,UDP,3389,32.254.174.154,IE,AS16509,known_attacker,Unknown,,,CVE-2006-2369,authentication_failed,e7ff7c7dfcbcea77,4353,4748,8bdf19c2a1bd
+2025-07-29T00:30:00,GCP,europe-west2-c,Europe,Mailoney,smtp_probe,UDP,110,251.81.172.94,DE,AS15169,known_attacker,Linux 3.x,,,,connection_attempted,341d392bae6ee90c,4850,579,b9a35ae404a2
+2025-07-29T04:14:00,AWS,us-east-1c,North America,Heralding,credential_capture,TCP,443,107.146.92.227,CN,AS16509,bad_reputation,Windows 7/8,guest,password,,command_executed,,3590,4271,827e8ab3da3d
+2025-07-29T05:04:00,GCP,us-east4-c,North America,Glastopf,web_attack,TCP,1433,176.18.240.172,VN,AS8075,known_attacker,Unknown,,,CVE-2012-0152,authentication_failed,d71c7cafe948fef4,6995,5529,888f81a7c486
+2025-07-29T07:28:00,GCP,europe-west2-c,Europe,Glastopf,web_attack,UDP,143,119.247.49.58,BR,AS13335,known_attacker,Unknown,,,CVE-2001-0540,connection_attempted,6dfb263d48f6998c,2120,2936,415a12abbda1
+2025-07-29T08:16:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,53,29.120.238.192,SG,AS14061,known_attacker,Unknown,,,,alert_logged,,8115,5463,f12998f05aaa
+2025-07-29T08:28:00,GCP,europe-west2-c,Europe,RDPY,rdp_auth_attempt,TCP,443,180.237.102.69,CN,AS13335,known_attacker,Windows 7/8,,,CVE-2012-0152,authentication_failed,,1671,1927,0d16dd0e9cad
+2025-07-29T09:14:00,GCP,europe-west2-c,Europe,RDPY,rdp_session_start,TCP,587,152.84.64.185,VE,AS14618,unknown,Windows XP,,,CVE-2005-4050,connection_attempted,,3606,1347,9ecaaac6f4fb
+2025-07-29T09:40:00,Azure,East US,North America,Cowrie,telnet_login_attempt,TCP,3306,122.19.68.244,CN,AS8075,known_attacker,Linux 3.x,postgres,qwerty,,connection_attempted,,5618,3426,6847a4eaa654
+2025-07-29T09:52:00,AWS,us-east-1c,North America,Glastopf,web_attack,TCP,143,95.18.9.162,GB,AS13335,unknown,Linux 2.6.x,,,CVE-2006-2369,authentication_failed,3063c29982ba84e9,2321,3833,d59893dfbd45
+2025-07-29T11:07:00,Azure,East US,North America,Cowrie,ssh_login_attempt,UDP,5060,177.128.175.177,CN,AS14061,known_attacker,Linux 3.x,,,,alert_logged,,4387,2673,c7adda2445ec
+2025-07-29T11:17:00,Azure,Southeast Asia,Asia,Dionaea,exploit_attempt,TCP,465,117.137.164.235,BR,AS14618,bad_reputation,Linux 3.x,,,CVE-2001-0540,command_executed,,7883,2099,4bbb05ffbf26
+2025-07-29T12:12:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,UDP,110,213.233.76.140,RU,AS37963,bad_reputation,Unknown,support,P@ssw0rd,,authentication_failed,,4374,4115,229b34ebd832
+2025-07-29T15:54:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,110,244.183.124.167,VN,AS16509,unknown,Linux 3.x,,,,alert_logged,,1624,2008,59fc848065b9
+2025-07-29T17:14:00,GCP,us-east4-c,North America,VNClowpot,vnc_auth_attempt,TCP,995,224.185.177.142,IN,AS15169,known_attacker,Linux 2.6.x,,,CVE-2012-0152,connection_attempted,,6039,3941,47a89a014a66
+2025-07-29T18:22:00,AWS,us-east-1c,North America,Cowrie,telnet_login_attempt,TCP,5900,141.239.246.175,IN,AS15169,known_attacker,Linux 3.x,oracle,123456,,command_executed,,3157,4420,ec9a94646c06
+2025-07-29T19:14:00,GCP,us-east4-c,North America,Dionaea,exploit_attempt,TCP,3306,113.146.14.32,GB,AS16509,known_attacker,Windows 7/8,,,CVE-2006-2369,payload_captured,,1251,976,7d9a22768852
+2025-07-29T19:47:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,135,2.63.188.105,DE,AS37963,unknown,Linux 3.x,,,CVE-2001-0540,authentication_failed,,7181,4037,95b782f0c175
+2025-07-29T21:00:00,AWS,us-east-1c,North America,VNClowpot,vnc_auth_attempt,TCP,443,231.232.222.87,GB,AS13335,bad_reputation,Linux 3.x,,,CVE-2001-0540,payload_captured,,2818,3029,ed415aafc676
+2025-07-29T21:23:00,GCP,us-east4-c,North America,Mailoney,smtp_probe,UDP,135,91.30.130.94,IN,AS14618,unknown,Linux 2.6.x,,,,alert_logged,31d4ba2a39804486,7335,5527,2414cafdaac4
+2025-07-30T00:55:00,Azure,East US,North America,Heralding,credential_capture,TCP,5900,14.237.143.178,IE,AS37963,bad_reputation,Linux 3.x,guest,12345678,,alert_logged,,4437,3162,3d2a539ef294
+2025-07-30T02:42:00,GCP,europe-west2-c,Europe,Glutton,tcp_connect,TCP,1433,131.44.17.176,GB,AS14618,known_attacker,Linux 3.x,,,,connection_attempted,,5262,1264,8d2fa4337f91
+2025-07-30T05:20:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,139,215.55.220.17,GB,AS16509,bad_reputation,Windows 7/8,pi,letmein,,payload_captured,,4653,462,1d1f963f2dc1
+2025-07-30T05:41:00,AWS,us-east-1c,North America,Dionaea,malware_capture,UDP,993,73.137.75.30,IN,AS36351,known_attacker,Linux 4.x,,,CVE-2005-4050,payload_captured,401b9a3fc9dd63c6,3377,3197,14ebe619e61c
+2025-07-30T06:24:00,GCP,europe-west2-c,Europe,Cowrie,telnet_login_attempt,TCP,5900,250.111.101.142,RU,AS13335,bad_reputation,Unknown,root,P@ssw0rd,,payload_captured,,2631,4620,bed59db0020c
+2025-07-30T07:55:00,Azure,Southeast Asia,Asia,Glutton,ssh_banner_grab,UDP,587,68.149.206.80,IE,AS14618,bad_reputation,Unknown,,,,connection_attempted,,5155,4315,3cf765619a78
+2025-07-30T08:45:00,Azure,Southeast Asia,Asia,Dionaea,malware_capture,UDP,995,239.66.31.225,IN,AS15169,bad_reputation,Linux 3.x,,,CVE-2006-2369,command_executed,93ae655cdcbd0824,3389,1744,7f1e38936df4
+2025-07-30T08:49:00,GCP,europe-west2-c,Europe,Glastopf,sql_injection,UDP,139,101.127.77.153,BR,AS13335,bad_reputation,Linux 3.x,,,CVE-2012-0152,authentication_failed,,7103,5364,cb9e60d1785d
+2025-07-30T10:36:00,GCP,europe-west2-c,Europe,Suricata,ids_alert,TCP,1433,42.181.45.92,IN,AS14061,bad_reputation,Linux 2.6.x,,,CVE-2005-4050,alert_logged,,4489,968,c9a800c2ba5d
+2025-07-30T12:11:00,AWS,us-east-1c,North America,Cowrie,command_input,TCP,8080,158.123.241.161,GB,AS14618,known_attacker,Windows 7/8,test,,,authentication_failed,,7920,4418,cb08b0abc898
+2025-07-30T12:43:00,GCP,us-east4-c,North America,Heralding,credential_capture,UDP,3306,189.182.36.115,IE,AS13335,known_attacker,Windows XP,postgres,toor,,authentication_failed,,5874,2467,b71f8a653cea
+2025-07-30T13:24:00,Azure,Southeast Asia,Asia,Glastopf,lfi_rfi,UDP,5900,166.163.180.27,US,AS8075,bad_reputation,Unknown,,,CVE-2012-0152,authentication_failed,33106c6e154aa683,5959,4140,9180c06bbd96
+2025-07-30T14:12:00,GCP,europe-west2-c,Europe,Glastopf,web_attack,TCP,445,247.77.212.166,CN,AS36351,bad_reputation,Linux 2.6.x,,,CVE-2012-0152,authentication_failed,3c557dc0d0c89554,5137,1247,457738e43a07
+2025-07-30T14:41:00,GCP,us-east4-c,North America,Dionaea,malware_capture,UDP,445,170.40.202.229,RU,AS45102,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,alert_logged,a2b0fc7d050c765a,4277,3964,f8b8df4c3b64
+2025-07-30T16:43:00,GCP,us-east4-c,North America,Cowrie,ssh_login_attempt,UDP,3389,94.3.53.196,VN,AS36351,bad_reputation,Unknown,root,12345678,,payload_captured,,4287,347,cd45d634db54
+2025-07-30T16:55:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,UDP,80,216.195.162.240,CN,AS45102,bad_reputation,Linux 2.6.x,,,CVE-2006-2369,payload_captured,,4322,4168,2b8c1a253897
+2025-07-30T22:36:00,AWS,us-east-1c,North America,Glutton,tcp_connect,TCP,5060,12.24.123.19,VN,AS45102,known_attacker,Unknown,,,,alert_logged,,4094,3982,0bacf92bfefe
+2025-07-30T22:47:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,UDP,22,31.193.148.120,IN,AS16509,benign_suspected,Linux 4.x,test,raspberry,,authentication_failed,,6910,5012,9de7bfb9d7c6
+2025-07-31T00:15:00,Azure,East US,North America,Glutton,ssh_banner_grab,TCP,80,32.188.46.122,RU,AS13335,known_attacker,Linux 2.6.x,,,,payload_captured,,6511,4114,781fed4ca4d9
+2025-07-31T02:03:00,Azure,East US,North America,Glastopf,lfi_rfi,UDP,22,188.216.61.19,VN,AS36351,spam,Windows 7/8,,,CVE-2006-2369,alert_logged,25b098292a7007a3,2816,2709,4a6306dea20b
+2025-07-31T02:18:00,GCP,europe-west2-c,Europe,Glutton,ssh_banner_grab,UDP,1433,111.173.32.94,IN,AS37963,known_attacker,Windows 7/8,,,,command_executed,,5363,4543,4377e36ae77d
+2025-07-31T02:26:00,GCP,europe-west2-c,Europe,Glutton,ssh_banner_grab,TCP,25,129.150.148.90,BR,AS8075,bad_reputation,Linux 2.6.x,,,,payload_captured,,5580,2435,056fe1646b02
+2025-07-31T04:00:00,GCP,us-east4-c,North America,Dionaea,service_probe,UDP,3389,252.74.124.51,US,AS37963,known_attacker,Windows 7/8,,,CVE-2006-2369,payload_captured,,4347,18,389340176bc6
+2025-07-31T07:16:00,GCP,europe-west2-c,Europe,Cowrie,ssh_login_attempt,TCP,445,9.14.254.113,IE,AS13335,bad_reputation,Linux 2.6.x,admin,,,authentication_failed,,2468,3723,92501b2cac68
+2025-07-31T09:37:00,AWS,us-east-1c,North America,Dionaea,malware_capture,TCP,22,116.92.91.7,BR,AS8075,known_attacker,Unknown,,,,authentication_failed,888a04c1a1f7cbd5,5958,1659,e6e7c01c2b0e
+2025-07-31T14:33:00,Azure,Southeast Asia,Asia,Cowrie,ssh_login_attempt,UDP,1433,52.242.212.221,BR,AS37963,bad_reputation,Linux 3.x,test,toor,,authentication_failed,,6357,1915,b32b12c79263
+2025-07-31T16:02:00,GCP,us-east4-c,North America,RDPY,rdp_session_start,TCP,5060,207.152.122.204,SG,AS16509,bad_reputation,Windows XP,,,CVE-2005-4050,payload_captured,,2055,2092,75248cd5c1d3
+2025-07-31T16:17:00,GCP,europe-west2-c,Europe,Glutton,tcp_connect,TCP,995,201.213.124.57,US,AS45102,bad_reputation,Linux 3.x,,,,connection_attempted,,2322,2976,3197b14d7431
+2025-07-31T19:40:00,Azure,East US,North America,Dionaea,malware_capture,TCP,139,104.109.92.166,GB,AS8075,known_attacker,Linux 2.6.x,,,CVE-2012-0152,alert_logged,c67355af577047c8,1689,626,5578c671b7fb
+2025-07-31T23:31:00,Azure,Southeast Asia,Asia,Glutton,tcp_connect,UDP,443,243.47.215.85,CN,AS8075,bad_reputation,Linux 2.6.x,,,,authentication_failed,,8402,2289,6c547b52adaa
+2025-08-01T03:32:00,GCP,us-east4-c,North America,Glastopf,sql_injection,UDP,25,190.224.84.226,DE,AS45102,known_attacker,Unknown,,,CVE-2006-2369,payload_captured,,4220,5108,cff4cc01a60e
+2025-08-01T04:44:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,UDP,995,47.169.128.164,BR,AS37963,known_attacker,Linux 2.6.x,,,CVE-2006-2369,alert_logged,,4957,3173,99ac8a7df871
+2025-08-01T04:50:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,UDP,5060,20.52.237.65,IN,AS16509,known_attacker,Windows 7/8,,,CVE-2005-4050,command_executed,,1312,1861,5a74f8539e4b
+2025-08-01T07:28:00,Azure,East US,North America,Glastopf,sql_injection,TCP,465,76.221.108.180,GB,AS15169,bad_reputation,Unknown,,,CVE-2001-0540,alert_logged,,6568,2005,e56599a0eb37
+2025-08-01T08:40:00,Azure,East US,North America,Dionaea,exploit_attempt,TCP,443,2.70.150.94,SG,AS14061,known_attacker,Windows 7/8,,,CVE-2001-0540,connection_attempted,,7634,3511,7b98c6c0409b
+2025-08-01T08:52:00,Azure,Southeast Asia,Asia,VNClowpot,vnc_auth_attempt,UDP,587,23.2.162.209,SG,AS15169,benign_suspected,Unknown,,,CVE-2001-0540,payload_captured,,2430,1386,d7f440cb6629
+2025-08-01T12:29:00,Azure,East US,North America,Dionaea,malware_capture,UDP,465,191.231.62.250,DE,AS14061,bad_reputation,Windows XP,,,CVE-2006-2369,payload_captured,190e4515cb158d7c,2009,3019,853f4a195a14
+2025-08-01T13:18:00,Azure,East US,North America,Glastopf,sql_injection,UDP,587,244.248.31.193,VE,AS36351,known_attacker,Windows 7/8,,,CVE-2006-2369,authentication_failed,,4936,2345,14cffcb5930e
+2025-08-01T15:04:00,AWS,us-east-1c,North America,Heralding,credential_capture,TCP,5060,112.191.152.126,RU,AS8075,bad_reputation,Linux 4.x,,,,alert_logged,,6799,2417,c9417107b151
+2025-08-01T17:05:00,Azure,Southeast Asia,Asia,Heralding,credential_capture,UDP,8080,211.30.251.240,VN,AS14061,unknown,Windows XP,user,letmein,,payload_captured,,9009,2772,bfa6becec3b8
+2025-08-01T17:21:00,AWS,us-east-1c,North America,Dionaea,malware_capture,UDP,8080,37.153.249.163,RU,AS15169,known_attacker,Linux 2.6.x,,,CVE-2001-0540,command_executed,f019db65fc0dcd60,3327,2191,285c0575e095
+2025-08-01T18:00:00,GCP,europe-west2-c,Europe,Cowrie,command_input,TCP,23,63.107.109.142,RU,AS13335,unknown,Linux 3.x,pi,,,connection_attempted,,4628,2669,7270bfac7bdc
+2025-08-01T21:24:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,UDP,5060,131.173.148.115,IE,AS37963,known_attacker,Linux 3.x,,,,payload_captured,,2946,5001,fa588b8865c6
+2025-08-01T23:19:00,Azure,Southeast Asia,Asia,Suricata,ids_alert,UDP,53,87.132.9.185,CN,AS14061,bad_reputation,Windows 7/8,,,CVE-2001-0540,authentication_failed,,3442,2982,a71609f279a7
+2025-08-02T02:34:00,AWS,us-east-1c,North America,Glutton,tcp_connect,UDP,1433,140.192.176.218,SG,AS14618,bad_reputation,Windows XP,,,,authentication_failed,,1405,1793,967b80f1707c
+2025-08-02T11:51:00,GCP,us-east4-c,North America,RDPY,rdp_auth_attempt,UDP,8080,149.196.188.125,IE,AS36351,known_attacker,Linux 2.6.x,,,CVE-2001-0540,authentication_failed,,3403,3438,6812d39155cc
+2025-08-02T13:25:00,Azure,East US,North America,Cowrie,telnet_login_attempt,UDP,443,90.157.22.79,RU,AS8075,unknown,Linux 3.x,postgres,P@ssw0rd,,payload_captured,,7930,2302,343b4b9009c2
+2025-08-02T14:17:00,Azure,East US,North America,Heralding,credential_capture,UDP,23,232.173.158.21,RU,AS16509,known_attacker,Unknown,pi,,,alert_logged,,5583,313,e77385baa87f
+2025-08-02T15:42:00,GCP,us-east4-c,North America,Glastopf,web_attack,TCP,53,124.116.48.136,VE,AS14061,bad_reputation,Windows 7/8,,,CVE-2001-0540,command_executed,c06711b5e6faed1d,5415,526,b6d43922de9c
+2025-08-02T16:07:00,AWS,us-east-1c,North America,Glutton,tcp_connect,TCP,25,84.251.2.69,US,AS16509,known_attacker,Linux 3.x,,,,payload_captured,,5116,3951,53aaca3554aa
+2025-08-02T20:47:00,Azure,East US,North America,Glastopf,sql_injection,TCP,110,239.140.66.244,IE,AS45102,bad_reputation,Linux 3.x,,,CVE-2001-0540,payload_captured,,5387,4030,9c9067b87ce5
+2025-08-02T21:21:00,Azure,East US,North America,Dionaea,malware_capture,UDP,22,143.101.138.187,SG,AS14618,known_attacker,Windows XP,,,CVE-2005-4050,payload_captured,4453170d09885c2e,2017,3279,acd244664e62
+2025-08-02T21:41:00,Azure,Southeast Asia,Asia,Cowrie,command_input,UDP,5060,25.202.177.140,DE,AS15169,spam,Windows 7/8,postgres,toor,,authentication_failed,,7816,3928,93eede791dea
+2025-08-02T22:07:00,AWS,us-east-1c,North America,Dionaea,exploit_attempt,UDP,465,106.191.178.99,DE,AS37963,known_attacker,Linux 3.x,,,CVE-2005-4050,connection_attempted,,3543,2971,6ddd338e6f16
+2025-08-02T22:46:00,GCP,us-east4-c,North America,Glutton,ssh_banner_grab,TCP,5900,198.107.139.245,IN,AS45102,known_attacker,Windows XP,,,,authentication_failed,,4188,149,4bc211dbf5cd
