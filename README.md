@@ -2,6 +2,8 @@
 
 # ☁️ HoneyCloud – Honeypot Integration in Cloud Computing for Threat Intelligence.
 
+🛡️ *“Cybersecurity is not just about protecting systems, it’s about predicting the attacker’s next move. Honeypots give us the lens into that future.”*
+
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
@@ -116,13 +118,14 @@ Elastic Stack integration enables:
   - Use **Reinforcement Learning** for real-time defense decisions
   - Deploy **AI-based adaptive honeypots**
   - Integrate with threat feeds and SIEM tools for enterprise use
+  - used of **GCP** instance in further updates
 
 ---
 
 ## 👥 Contributors
 
-- Trinity Chettiar – MSc Cybersecurity | Cloud & AI Enthusiast  
-- Special thanks to my guide, faculty, and lab mentors for continuous feedback and evaluation support.
+- Trinity Chettiar – University of Galway | MSc Cybersecurity | Cloud & AI Enthusiast  
+- Special thanks to my guide Prof. Jawad Manzoor for his continuous feedback and evaluation support.
 
 ---
 
@@ -141,5 +144,3 @@ This project is licensed under the [MIT License](LICENSE).
 - University Capstone Lab (Cybersecurity Department)
 
 ---
-
-🛡️ *“Cybersecurity is not just about protecting systems, it’s about predicting the attacker’s next move. Honeypots give us the lens into that future.”*
