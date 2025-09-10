@@ -31,7 +31,7 @@ The project combines **honeypot-based threat collection** with **supervised and 
 
 With cloud platforms becoming central to enterprise infrastructure, the frequency and sophistication of attacks targeting cloud services has increased. This project focuses on simulating vulnerable services using **honeypots** and collecting attack logs. The collected data is analyzed using **machine learning** models to classify known attacks and detect unknown or novel anomalies.
 
-Honeypots used include: Cowrie, Dionaea, Glastopf, Heralding, and more. These were deployed across **AWS**, **GCP**, and **Azure** using **T-Pot framework** and containerized services.
+Honeypots used include: Cowrie, Dionaea, Glastopf, Heralding, and more. These were deployed across **AWS** and **Azure** using **T-Pot framework** and containerized services. **GCP** will be used in further updates.
 
 ---
 
