@@ -140,7 +140,5 @@ This project is licensed under the [MIT License](LICENSE).
 - T-Pot Honeypot Framework (Deutsche Telekom Security)
 - Elastic Team for the ELK Stack
 - PyTorch & Scikit-Learn for model training
-- GitHub Copilot and ChatGPT for AI-assisted development
-- University Capstone Lab (Cybersecurity Department)
 
 ---
