@@ -1,6 +1,6 @@
 
 
-# ☁️ HoneyCloud – Honeypot Integration in Cloud for Threat Intelligence and Deep Learning
+# ☁️ HoneyCloud – Honeypot Integration in Cloud Computing for Threat Intelligence.
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
